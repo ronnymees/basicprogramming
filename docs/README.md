@@ -7,20 +7,12 @@ Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleer
 ## Inhoud
 
 1. Installatie van Visual Studio
-2. Les 1 - Introductie tot programmeren
-3. Les 2 - Objecten en events
-4. Les 3 - Variabelen en berekeningen
-5. Les 4 - Variabelen en berekeningen (vervolg)
-6. Les 5 - Methoden en argumenten
-7. Les 6 - Functiemethoden
-8. Les 7 - Herhalingsles
-9. Les 8 - 
-10. Les 9 -
-11. Les 10 -
-12. Les 11 -
-13. Les 12 -
-14. Les 13 -
-15. Les 14 -
+2. Introductie tot programmeren
+3. Objecten en events
+4. Variabelen en berekeningen
+5. Methoden en argumenten
+
+
 
 ## Bron
 
