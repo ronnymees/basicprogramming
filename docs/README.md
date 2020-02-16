@@ -11,8 +11,10 @@ Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleer
 3. Objecten en events
 4. Variabelen en berekeningen
 5. Methoden en argumenten
-
-
+6. Objecten
+7. Beslissingen
+8. Herhalingen
+9. Debuggen
 
 ## Bron
 
