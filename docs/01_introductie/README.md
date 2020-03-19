@@ -1,4 +1,4 @@
-# Les 1 - Introductie tot programmeren
+# Introductie tot programmeren
 
 ## Wat is programmeren ?
 
@@ -21,7 +21,7 @@ Als voorbeeld nemen we een fles shampoo, het ‘programma’ zou dan kunnen zijn
 
 > **Een programma is dus een logische opeenvolging van handelingen/instructies die er voor zorgen dat een taak volbracht kan worden.**
 
->**Oefening 1**
+>**Oefening 1.1**
 >
 > Ga in 5 groepjes zitten en schrijf de instructies neer om: 
 >* Een biefstuk te bakken
@@ -89,12 +89,14 @@ Nu dien je het gemaakte voorbeeld bij wijze van test in via Toledo:
 
 ## Een event koppelen aan een object
 
-Laten we een tweede voorbeeld programma ( naam = Voorbeeld 1.2) aanmaken.
+Laten we een tweede voorbeeld programma ( naam = Oefening 1.2) aanmaken.
 * Plaats een label en een button op jou user interface ( XAML). Alle objecten die je op de user interface plaatst waarmee je interactie moet hebben vanuit de code moeten een naam krijgen. **Zorg dat dit eerst in orde is voor je naar je code overgaat.**
 * Dubbelklik op de button om de "event container" te creëren.
 * Pas de content van je label aan in de event container.
 
 > **Taak 1**
+>
+>**Oefening 1.3**
 >
 > Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja,Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
 > Zorg er nu voor dat:

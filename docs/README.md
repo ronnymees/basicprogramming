@@ -8,19 +8,19 @@ Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleer
 
 1. Installatie van Visual Studio
 2. Introductie tot programmeren
-3. Objecten en events
-4. Variabelen en berekeningen
-5. Methoden en argumenten
-6. Objecten
-7. Beslissingen
-8. Herhalingen
-9. Debuggen
+3. De basis van objecten en events
+4. Gebruik van variabelen en berekeningen
+5. Gerbuik van methoden en argumenten
+6. Aanvulling op objecten
+7. Nemen van beslissingen
+8. Toepassen van herhalingen
+9. Debuggen van je code
 
 ## Bron
 
 Deze cursus is ontwikkeld voor de opleiding graduaat Internet of Things van de hogeschool [VIVES](https://www.vives.be/nl/opleidingen/industriële-wetenschappen-en-technologie/graduaat-internet-of-things).
 
-![download](./images/afbeelding1.png)
+![download](./assets/afbeelding1.png)
 
 Het handboek programmeren in c# van Douglas Bell en Mike Parr werd gebruikt als basis voor deze cursus.
 

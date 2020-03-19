@@ -1,0 +1,180 @@
+# Objecten en events
+
+## De messagebox
+
+Een **messagebox** is een venster die verschijnt met een melding en een OK-button. Het is bedoelt om een bericht te melden aan de gebruiker van het programma, meestal omdat er iets fout is.
+
+![download](./images/afbeelding1.png)
+
+Laten we dit even uitproberen in een voorbeeld programma ( naam = Oefening 2.1).
+* Plaats een button op jou user interface ( XAML).
+* Dubbelklik op de button om de "event container" te creëren.
+* Roep de messagebox als volgt op:
+    ```csharp
+    {
+        messagebox.show("Je hebt op de button geklikt!");
+    }
+    ```
+
+Enkele oefeningen:
+
+>**Oefening 2.2**
+>
+> Schrijf een programma met 1 label "Message" en 2 knoppen "ON" en "OFF" in de user interface.
+> Klik je op de "ON" knop wordt het label zichtbaar, klik je op de "OFF" knop dan wordt het label onzichtbaar.
+>
+> **Tip**: Maak gebruik van de eigenschap Visibility.Visible (zichtbaar) , Visibility.Collapsed (onzichtbaar)
+>
+>lblMessage.Visibility = Visibility.Collapsed;
+
+>**Oefening 2.3**
+>
+> Schrijf een programma dat bij het starten van het programma een eerste messagebox toont met je voornaam en naam en daarna een tweede messagebox toont met jouw leeftijd.
+>
+> **Tip** : Maak gebruik van het *Loaded* event van het venster.
+>
+> Klik hiervoor op het bliksemtje als je het venster hebt geselecteerd en zoek het Loaded event.
+>
+> ![download](./images/afbeelding2.png)
+>
+> Dubbelklik er vervolgens op om de event methode aan te maken in de source code.
+>
+> ![download](./images/afbeelding3.png)
+
+>**Oefening 2.4**
+>
+> Het event *MouseEnter* treedt op wanneer de cursor over een object wordt bewogen. Schrijf nu een programma dat een Messagebox laat zien met de tekst "Over Button" zodra je de muis boven een knop houdt.
+
+## De grafische interface
+
+In ons programma kunnen we allerhande grafische vormen tekenen. Meestal om bepaalde zaken duidelijk te maken aan de gebruiker of om bv een grafiek te tonen van sensordata.
+
+Net zoals wij dit doen gebruiken we in de software hiervoor een papier wat in C# de **canvas** noemt.
+
+### Canvas
+
+Je kan een canvas aan jou user interface toevoegen door het object via de toolbaar toe te voegen en dan de eigenschappen correct te zetten. Die-hard codeurs zullen dit in de XAML file rechtstreeks intikken. Je geeft best een achtergrondkleur aan jou canvas zodat je duidelijk kan zien waar die zich bevind"
+
+```yaml
+<canvas Name="paperCanvas" Height="200" Width="150" Margin="105,27,0,0," VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightGray"/>
+```
+Op je canvas kan je nu allerhande grafische zaken gaan toevoegen zoals een rechthoek, een lijn, een elipse of een afbeelding.
+
+### Rechthoek
+
+Je kan een rechthoek bv gebruiken om een balk grafiek weer te geven.
+
+#### Via sourcecode
+
+Via een event kan je een rechthoek toevoegen aan je canvas vanuit de sourcecode.
+
+```csharp
+Rectangle balk = new Rectangle();
+balk.Width = 100;
+balk.Height = 50;
+balk.Margin = new Thickness(10,10,0,0);
+balk.Stroke = new SolidColorBrush(Colors.Black);
+paperCanvas.Children.Add(balk);
+```
+![download](./images/afbeelding4.png)
+
+We maken in de eerste coderegel een nieuwe instantie aan van het type Rectangle. Daarna vullen we de eigenschappen Width, Height, Margin en Stroke (omtrek) in. Als laatste voegen we onze rechthoek als een kind toe aan de canvas.
+
+#### Via Xaml
+
+We kunnen er ook voor zorgen dat de rechthoek reeds onmiddelijk samen met de canvas aangemaakt wordt via de XAML.
+
+```yaml
+<Canvas ...>
+    <Rectangle Name="balk" Width="100" Height="50" Margin="10,10,0,0" Stroke="Black" Visiblity="Hidden"/>
+</Canvas>
+```
+Door `Visility="Hidden"` te gebruiken zie je bij de start van het programma dit rechthoek niet en kan je in de code op het gepaste ogenblik dit zichtbaar zetten.
+
+### Lijn
+
+Je kan een lijn voor allerhande grafische toepassingen gebruiken zoals bv een lijn grafiek.
+Om een lijn via code toe te voegen ga je als volgt tewerk:
+
+```csharp
+Line lijn = new Line();
+lijn.X1=10; lijn.Y1=10;
+lijn.X2=110; lijn.Y2=60;
+lijn.Stroke = new SolidColorBrush(Colors.Black);
+paperCanvas.Children.Add(lijn);
+```
+
+![download](./images/afbeelding5.png)
+
+### Elipse
+
+Je kan een elipse voor allerhande grafische toepassingen gebruiken zoals bv een taart grafiek.
+Om een elipse via code toe te voegen ga je als volgt tewerk:
+
+```csharp
+Elipse cirkel = new Elipse();
+cirkel.Width = 100;
+cirkel.Height = 100;
+cirkel.Margin = new Thickness(10,10,0,0);
+cirkel.Stroke = new SolidColorBrush(Colors.Black);
+paperCanvas.Children.Add(cirkel);
+```
+
+Als je de breedte en hoogte van een elipse gelijk maakt krijg je een cirkel.
+
+![download](./images/afbeelding6.png)
+
+### Afbeelding
+
+Je kan ook afbeeldingen toevoegen aan jou canvas. Je gaat hiervoor als volgt tewerkt:
+
+```csharp
+BitmapImage afbSource = new BitmapImage();
+afbSource.BeginInit();
+afbSource.UriSource = new Uri(@"pathtofile\filename.jpg"), UriKind.RelativeOrAbsolute);
+afbSource.EndInit();
+Image afbeelding = new Image();
+afbeelding.Source = afbSource;
+afbeelding.Margin = new Thickness(120,10,0,0);
+afbeelding.Width = 150;
+afbeelding.Height = 150;
+paperCanvas.Children.Add(afbeelding);
+```
+
+## Commentaar toevoegen in de code
+
+Terwijl je volop aan het coderen bent komt elke regel code logisch en duidelijk over. Maar voor iemand anders of als je de code maanden later opnieuw bekijkt is dit niet zo.
+Daarom is het belangrijk commentaar bij jou code te voorzien.
+
+```csharp
+// Dit is commentaar op 1 lijn 
+
+afbeelding.Width = 150; // Dit is commentaar na een lijn code
+
+/* Dit is commentaar
+   die over verschillende
+   lijnen loopt */
+```
+Met de laatste methode kan je ook tijdelijk stukken code uitschakelen.
+
+> **Taak 2**
+>
+> **Oefening 2.5**
+>
+> Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker en onderzijde van het canvas zijn hoek van 90 graden heeft.
+>
+> **Oefening 2.6**
+>
+> Schrijf een programma met een knop "SHOW"en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoont. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
+>
+>![download](./images/afbeelding7.png)
+>
+> **Oefening 2.7**
+>
+> Dit zijn de gegevens van de jaarlijkse regenval an het fictieve land Tatooine.
+>
+> 2009: 150cm, 2010: 175cm, 2011: 120cm, 2012: 130cm, 2013:180cm, 2014: 115cm
+>
+> Schrijf een programma met een knop "GRAPH" en een canvas van 200x200. Als men op de Graph-knop drukt worden de gegeven in een lijn en balk grafiek weergegeven. Zorg voor aslijnen in een zwarte kleur. De lijngrafiek krijgt een blauwe kleur en de balkgrafiek een groene kleur.
+> 
+>![download](./images/afbeelding8.png)
