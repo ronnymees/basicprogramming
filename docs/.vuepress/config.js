@@ -2,9 +2,11 @@ module.exports = {
     title: 'Basic Programming',
     description: 'c# programmeren graduaat Internet of Things ( VIVES )',
     themeConfig: {
+      logo: '/files/afbeelding1.png',
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Company', link: 'https://www.vives.be' },      
+        { text: 'Company', link: 'https://www.vives.be' },
+        { text: 'Contact', link: 'mailto:ronny.mees@vives.be' },      
       ],
       sidebarDepth: 1,
       repo: 'https://github.com/ronnymees/basicprogramming',
