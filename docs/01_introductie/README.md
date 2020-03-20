@@ -19,16 +19,18 @@ Als voorbeeld nemen we een fles shampoo, het ‘programma’ zou dan kunnen zijn
 4. Spoel de shampoo uit je haar
 5. Droog je haar af
 
-> **Een programma is dus een logische opeenvolging van handelingen/instructies die er voor zorgen dat een taak volbracht kan worden.**
+:::warning **Nota:**
+Een programma is dus een logische opeenvolging van handelingen/instructies die er voor zorgen dat een taak volbracht kan worden.
+::
 
->**Oefening 1.1**
->
-> Ga in 5 groepjes zitten en schrijf de instructies neer om: 
->* Een biefstuk te bakken
->* Een pint te tappen
->* Te tanken
->* Een straat over te steken op het voetpad
->* Een mail te versturen
+:::tip **Oefening 1.1**
+Ga in 5 groepjes zitten en schrijf de instructies neer om: 
+* Een biefstuk te bakken
+* Een pint te tappen
+* Te tanken
+* Een straat over te steken op het voetpad
+* Een mail te versturen
+:::
 
 Om er voor te zorgen dat de computer onze instructies begrijpt moeten we een taal gebruiken die wij kunnen lezen/programmeren en die de computer kan verstaan.
 
