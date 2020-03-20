@@ -208,7 +208,7 @@ lblResultaat.Content = $"{euro} euro en {cent} cent";
 lblPrijs.Content = $"De kostprijs is {prijs:c}";
 ```
 
-Extra info kan je [hier](stringformat.pdf) terugvinden.
+Extra info kan je [hier](/files/stringformat.pdf) terugvinden.
 
 ## De rol van expressies
 
