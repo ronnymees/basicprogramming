@@ -2,12 +2,12 @@
 
 ## De messagebox
 
-Een **messagebox** is een venster die verschijnt met een melding en een OK-button. Het is bedoelt om een bericht te melden aan de gebruiker van het programma, meestal omdat er iets fout is.
+Een **messagebox** is een venster die verschijnt met een melding en een OK-button. Het is bedoeld om een bericht te melden aan de gebruiker van het programma, meestal omdat er iets fout is.
 
 ![download](./images/afbeelding1.png)
 
-Laten we dit even uitproberen in een voorbeeld programma ( naam = Oefening 2.1).
-* Plaats een button op jou user interface ( XAML).
+Laten we dit even uitproberen in een voorbeeldprogramma ( naam = Oefening 2.1).
+* Plaats een button op jouw user interface ( XAML).
 * Dubbelklik op de button om de "event container" te creëren.
 * Roep de messagebox als volgt op:
     ```csharp
@@ -23,7 +23,7 @@ Enkele oefeningen:
 > Schrijf een programma met 1 label "Message" en 2 knoppen "ON" en "OFF" in de user interface.
 > Klik je op de "ON" knop wordt het label zichtbaar, klik je op de "OFF" knop dan wordt het label onzichtbaar.
 >
-> **Tip**: Maak gebruik van de eigenschap Visibility.Visible (zichtbaar) , Visibility.Collapsed (onzichtbaar)
+> **Tip**: Maak gebruik van de eigenschap Visibility.Visible (zichtbaar) , Visibility.Collapsed (onzichtbaar).
 >
 >lblMessage.Visibility = Visibility.Collapsed;
 
@@ -33,11 +33,11 @@ Enkele oefeningen:
 >
 > **Tip** : Maak gebruik van het *Loaded* event van het venster.
 >
-> Klik hiervoor op het bliksemtje als je het venster hebt geselecteerd en zoek het Loaded event.
+> Klik hiervoor op het bliksempje als je het venster hebt geselecteerd en zoek het Loaded event.
 >
 > ![download](./images/afbeelding2.png)
 >
-> Dubbelklik er vervolgens op om de event methode aan te maken in de source code.
+> Dubbelklik er vervolgens op om de event methode aan te maken in de sourcecode.
 >
 > ![download](./images/afbeelding3.png)
 
@@ -53,16 +53,16 @@ Net zoals wij dit doen gebruiken we in de software hiervoor een papier wat in C#
 
 ### Canvas
 
-Je kan een canvas aan jou user interface toevoegen door het object via de toolbaar toe te voegen en dan de eigenschappen correct te zetten. Die-hard codeurs zullen dit in de XAML file rechtstreeks intikken. Je geeft best een achtergrondkleur aan jou canvas zodat je duidelijk kan zien waar die zich bevind"
+Je kan een canvas aan jouw user interface toevoegen door het object via de toolbaar toe te voegen en dan de eigenschappen correct te zetten. Die-hard codeurs zullen dit in de XAML file rechtstreeks intikken. Je geeft best een achtergrondkleur aan jou canvas zodat je duidelijk kan zien waar die zich bevindt.
 
 ```yaml
 <canvas Name="paperCanvas" Height="200" Width="150" Margin="105,27,0,0," VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightGray"/>
 ```
-Op je canvas kan je nu allerhande grafische zaken gaan toevoegen zoals een rechthoek, een lijn, een elipse of een afbeelding.
+Op je canvas kan je nu allerhande grafische zaken gaan toevoegen zoals een rechthoek, een lijn, een ellips of een afbeelding.
 
 ### Rechthoek
 
-Je kan een rechthoek bv gebruiken om een balk grafiek weer te geven.
+Je kan een rechthoek bv gebruiken om een balkgrafiek weer te geven.
 
 #### Via sourcecode
 
@@ -82,19 +82,19 @@ We maken in de eerste coderegel een nieuwe instantie aan van het type Rectangle.
 
 #### Via Xaml
 
-We kunnen er ook voor zorgen dat de rechthoek reeds onmiddelijk samen met de canvas aangemaakt wordt via de XAML.
+We kunnen er ook voor zorgen dat de rechthoek reeds onmiddellijk samen met de canvas aangemaakt wordt via de XAML.
 
 ```yaml
 <Canvas ...>
     <Rectangle Name="balk" Width="100" Height="50" Margin="10,10,0,0" Stroke="Black" Visiblity="Hidden"/>
 </Canvas>
 ```
-Door `Visility="Hidden"` te gebruiken zie je bij de start van het programma dit rechthoek niet en kan je in de code op het gepaste ogenblik dit zichtbaar zetten.
+Door `Visility="Hidden"` te gebruiken zie je bij de start van het programma de rechthoek niet en kan je in de code op het gepaste ogenblik dit zichtbaar zetten.
 
 ### Lijn
 
-Je kan een lijn voor allerhande grafische toepassingen gebruiken zoals bv een lijn grafiek.
-Om een lijn via code toe te voegen ga je als volgt tewerk:
+Je kan een lijn voor allerhande grafische toepassingen gebruiken zoals bv een lijngrafiek.
+Om een lijn via code toe te voegen ga je als volgt te werk:
 
 ```csharp
 Line lijn = new Line();
@@ -106,10 +106,10 @@ paperCanvas.Children.Add(lijn);
 
 ![download](./images/afbeelding5.png)
 
-### Elipse
+### Ellips
 
-Je kan een elipse voor allerhande grafische toepassingen gebruiken zoals bv een taart grafiek.
-Om een elipse via code toe te voegen ga je als volgt tewerk:
+Je kan een ellips voor allerhande grafische toepassingen gebruiken zoals bv een taartgrafiek.
+Om een ellips via code toe te voegen ga je als volgt te werk:
 
 ```csharp
 Elipse cirkel = new Elipse();
@@ -126,7 +126,7 @@ Als je de breedte en hoogte van een elipse gelijk maakt krijg je een cirkel.
 
 ### Afbeelding
 
-Je kan ook afbeeldingen toevoegen aan jou canvas. Je gaat hiervoor als volgt tewerkt:
+Je kan ook afbeeldingen toevoegen aan jouw canvas. Je gaat hiervoor als volgt te werk:
 
 ```csharp
 BitmapImage afbSource = new BitmapImage();
@@ -149,7 +149,7 @@ Daarom is het belangrijk commentaar bij jou code te voorzien.
 ```csharp
 // Dit is commentaar op 1 lijn 
 
-afbeelding.Width = 150; // Dit is commentaar na een lijn code
+afbeelding.Width = 150; // Dit is commentaar na een lijncode
 
 /* Dit is commentaar
    die over verschillende
@@ -161,11 +161,11 @@ Met de laatste methode kan je ook tijdelijk stukken code uitschakelen.
 >
 > **Oefening 2.5**
 >
-> Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker en onderzijde van het canvas zijn hoek van 90 graden heeft.
+> Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker- en onderzijde van het canvas zijn hoek van 90 graden heeft.
 >
 > **Oefening 2.6**
 >
-> Schrijf een programma met een knop "SHOW"en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoont. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
+> Schrijf een programma met een knop "SHOW" en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoond. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
 >
 >![download](./images/afbeelding7.png)
 >

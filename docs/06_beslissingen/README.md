@@ -40,8 +40,8 @@ Bij het uitschrijven van een conditie kan je ook verschillende voorwaarden combi
 >* De brander moet actief worden als de temperatuur lager is dan de 'dagtemperatuur' of als de temperatuur lager is dan de 'awaytemperatuur' als het huis in de stand 'nothome' staat.
 >* Als er minder dan 20 lux licht is en het is tussen 18u00 en 8u00 moet de buitenverlichting branden.
 
-::: tip Tip
-Een if-operatie kan in een andere if-operatie voorkomen. We spreken dan van een geneste if structuur.
+:::tip
+Een if-operatie kan in een andere if-operatie voorkomen. We spreken dan van een geneste if-structuur.
 :::
 
 > **Taak 9**
@@ -54,7 +54,7 @@ Een if-operatie kan in een andere if-operatie voorkomen. We spreken dan van een 
 >
 > **Oefening 6.5**
 >
->Schrijf een programma dat uitrekent hoeveel iemand voor een bioscoopkaartje moet betalen. Je kan jou leeftijd invoeren via een textbox en het correcte bedrag ontdekken via een "Ticket" knop.
+>Schrijf een programma dat uitrekent hoeveel iemand voor een bioscoopkaartje moet betalen. Je kan jouw leeftijd invoeren via een textbox en het correcte bedrag ontdekken via een "Ticket" knop.
 >* Jonger dan 5 jaar : gratis
 >* van 5 tot en met 12 jaar : halve prijs
 >* van 13 tot en met 55 jaar : volle prijs
@@ -64,7 +64,7 @@ Een if-operatie kan in een andere if-operatie voorkomen. We spreken dan van een 
 >
 > **Oefening 6.6**
 >
->Schrijf volgende gok programma:
+>Schrijf volgende gokprogramma:
 >
 >* 1 deelname kost 10€ waarmee je 10 beurten krijgt.
 >* Per beurt worden 3 dobbelstenen geworpen (gebruik de random generator om die worpen te simuleren)
@@ -146,9 +146,9 @@ Als we met logische operaties werken is de uitkomst steeds **true** (waar) of **
 >
 > **Oefening 6.8**
 >
->Schrijf een programma dat als een digitaal combinatieslot voor een kluis fungeert. Plaats drie knoppen "1", "2" en "3" op het scherm. Via die knoppen kan de gebruiker de cijfercombinatie invoeren. Toon deze combinatie terwijl men de invoer doet. Neem een cijfercombinatie van 6 cijfers. Als na 6 cijfers de code juist is verschijnt "De kluis is open" zoniet wordt de combinatie gewist en kan een nieuwe poging ondernomen worden.
+>Schrijf een programma dat als een digitaal combinatieslot voor een kluis fungeert. Plaats drie knoppen "1", "2" en "3" op het scherm. Via die knoppen kan de gebruiker de cijfercombinatie invoeren. Toon deze combinatie terwijl men de invoer doet. Neem een cijfercombinatie van 6 cijfers. Als na 6 cijfers de code juist is verschijnt "De kluis is open". Zoniet wordt de combinatie gewist en kan een nieuwe poging ondernomen worden.
 >
-> Voorzie eveneens een knop "Nieuwe code" als die wordt ingedrukt kan de gebruiker via diezelfde knoppen "1", "2" en "3" een nieuwe combinatie voor de kluis invoeren. Na het 6de cijfer wordt de code bewaard en werkt het programma zoals voorheen.
+> Voorzie eveneens een knop "Nieuwe code". Als die wordt ingedrukt kan de gebruiker via diezelfde knoppen "1", "2" en "3" een nieuwe combinatie voor de kluis invoeren. Na het 6de cijfer wordt de code bewaard en werkt het programma zoals voorheen.
 >
 > **Oefening 6.9**
 >

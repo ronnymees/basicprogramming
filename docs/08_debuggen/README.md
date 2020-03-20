@@ -16,7 +16,7 @@ Je hebt dan de keuze om het programma via **Continue** zich gewoon te laten verd
 Om effectief op zoek te gaan naar problemen kan je gebruik maken van:
 * **Step Into**: zal de volgende coderegel uitvoeren, deze gaat ook in methodes de individuele regels debuggen.
 * **Step Over**: zal de volgende coderegel uitvoeren, bij een methode wordt de methode gewoon uitgevoerd zonder elke individuele regel van de methode te gaan debuggen.
-* **step Out**: zal de huidige methode afwerken en pas terug stoppen bij de volgende coderegel buiten de methode. Je stapt als het ware uit de methode.
+* **Step Out**: zal de huidige methode afwerken en pas terug stoppen bij de volgende coderegel buiten de methode. Je stapt als het ware uit de methode.
 
 ![download](./images/afbeelding3.png)
 

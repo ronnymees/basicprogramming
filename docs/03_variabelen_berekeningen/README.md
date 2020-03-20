@@ -7,9 +7,9 @@ Een variabele is een container of doos waarin je informatie kan bewaren.
 De meest gebruikte variabele types zijn:
 * **string**: wordt gebruikt om tekst in te bewaren
 * **int**: wordt gebruikt om gehele getallen in te bewaren
-* **double** wordt gebruikt om komma getallen in te bewaren
+* **double** wordt gebruikt om kommagetallen in te bewaren
 
-Het definieren van een variabele gebeurt als volgt:
+Het definiëren van een variabele gebeurt als volgt:
 ```csharp
 int lengte, breedte;
 double prijs;
@@ -19,7 +19,7 @@ string voornaam;
 
 Bij het toekennen van een waarde aan een variabele heb je een linkerdeel (de target of variabele) en een rechterdeel (de waarde). 
 
-::: warning Waarschuwing
+:::WARNING
 Onthou dat de waarde steeds van hetzelfde datatype moet zijn als de variabele.
 :::
 
@@ -52,7 +52,7 @@ int lengte = 100;
 int breedte = 250;
 int opp = lengte * breedte;
 ```
-> Eerst wordt dus het rechter deel berekend, dit is van een bepaald datatype, vervolgens wordt dit toegekend aan de target variabele.
+> Eerst wordt dus het rechterdeel berekend, dit is van een bepaald datatype, vervolgens wordt dit toegekend aan de target variabele.
 
 Laten we even enkele voorbeelden bekijken:
 ```charp
@@ -66,7 +66,7 @@ i = 10.6 / 2;   Het resultaat is 5.3
 i = 3 / 2;      Het resultaat is 1 
 ```
 :::tip
-De software rekent met de eenvoudigste dataype vorm. Als je dus 5 gebruikt in een berekening is dit een integer terwijl 5.0 een double zal zijn.
+De software rekent met de eenvoudigste vorm van datatype. Als je dus 5 gebruikt in een berekening is dit een integer terwijl 5.0 een double zal zijn.
 :::
 > **Oefening 3.1**
 >
@@ -80,11 +80,11 @@ Na het indrukken van de CALC-knop verschijnt de totaalprijs in een label.
 > brutoprijs = (99.95 * 4)*(100 + 21)/100 = 483.758€
 >
 > Tip:
- Om de ingevulde waarde van string naar int om te zetten ga je als volgt tewerk: 
+ Om de ingevulde waarde van string naar int om te zetten ga je als volgt te werk: 
 > ```csharp
 > int aantal = Convert.ToInt32(txbLengte.Text);
 >```
->Om het resultaat van int terug naar string om te zetten ga je als volgt tewerk: 
+>Om het resultaat van int terug naar string om te zetten ga je als volgt te werk: 
 > ```csharp
 > lblBrutoprijs.Content = Convert.ToString(brutoprijs);
 >```
@@ -93,13 +93,13 @@ Na het indrukken van de CALC-knop verschijnt de totaalprijs in een label.
 >
 > **Oefening 3.2**
 >
-> Schrijf een programma waar je de lengte, hoogte en breedte van een balk kunt in ingeven. Als men vervolgens op de Calc-knop drukt wordt het volume van de balk berekend en weergegeven in een label.
+> Schrijf een programma waar je de lengte, hoogte en breedte van een balk kunt ingeven. Als men vervolgens op de CALC-knop drukt wordt het volume van de balk berekend en weergegeven in een label.
 >
 > **Oefening 3.3**
 >
 > Schrijf een programma om de omtrek, oppervlakte en het volume van een cirkel en een bol te berekenen.
 >
-> 1. zorg dat de gebruiker de straal kan inbrengen ( komma getal)
+> 1. zorg dat de gebruiker de straal kan inbrengen ( kommagetal )
 > 2. zorg dat de 3 resultaten duidelijk op het scherm komen 
 > 3. Formules:
 >```csharp
@@ -141,7 +141,9 @@ Na het indrukken van de CALC-knop verschijnt de totaalprijs in een label.
 >1. De meetwaarden uitzet in een lijngrafiek voorzien van aslijnen
 >2. Het gemiddelde bepaald van de meetwaarden en dit als een horizontale lijn weergeeft op de grafiek
 >3. Balkgrafiekjes plaatst vanaf dat gemiddelde naar elke meetwaarde
+>
 >![download](./images/afbeelding4.png)
+>
 >4. De gemiddelde waarde wordt ook in een label visueel gemaakt.
 >5. Plaats eventueel labels bij je aslijnen.
 
@@ -152,8 +154,8 @@ Net zoals bij getallen kan je ook strings met elkaar optellen.
 ```csharp
 string voornaam = "Jan";
 string familienaam, naam, titel;
-familienaam="Jansens";
-naam = voormaan + " " + familienaam;
+familienaam = "Jansens";
+naam = voornaam + " " + familienaam;
 titel = "Dhr. "+naam+" studeert de opleiding Graduaat Internet of Things";
 ```
 
@@ -172,7 +174,7 @@ string resultaat, zin = "Het antwoord is: ";
 resultaat = intro + appels + peren;
 ```
 Er zijn twee mogelijkheden:
-* **Het antwoord is: 23**   Dit omdat de twee + operatoren op string worden uitgevoerd
+* **Het antwoord is: 23**   Dit omdat de twee + operatoren op de string worden uitgevoerd
 * **Het antwoord is: 5**    Dit omdat eerst de cijfers worden opgeteld
 
 De eerste mogelijkheid is de juiste omdat C# van links naar rechts de evaluatie uitvoert. De eerste + zet de waarde van appels om in een string en voegt deze samen met de string van intro, vervolgens doet de tweede + dit nog eens.
@@ -199,7 +201,7 @@ i = (int)d;         // i  wordt 3
 ```
 ## Geformateerde strings
 
-Via geformateerde strings kan je tekst, getallen en weergave combineren. Je herkent string formatering onmiddelijk aan het **$-teken** voor de string en de `{}` waar een getal geformateerd wordt weergegeven.
+Via geformateerde strings kan je tekst, getallen en weergave combineren. Je herkent stringformattering onmiddellijk aan het **$-teken** voor de string en de `{}` waar een getal geformatteerd wordt weergegeven.
 
 ```csharp
 lblResultaat.Content = $"{euro} euro en {cent} cent";
@@ -210,12 +212,12 @@ Extra info kan je [hier](stringformat.pdf) terugvinden.
 
 ## De rol van expressies
 
-Expressies of berekeningen kan je ook gebruiken om structuur en eenvoud in je code te brengen. Stel b.v. dat je een lijn op de canvas moet plaatsen die t.o.v. de linker onderzijde van je canvas moet gepositioneerd zijn. 
+Expressies of berekeningen kan je ook gebruiken om structuur en eenvoud in je code te brengen. Stel b.v. dat je een lijn op de canvas moet plaatsen die t.o.v. de linkeronderzijde van je canvas moet gepositioneerd zijn. 
 
 Je code zou er dan als volgt kunnen uitzien:
 ```csharp
-int x0 = 10;     // referentie positie in de x richting t.o.v. de canvas
-int y0 = 390;    // referentie positie in de y richting t.o.v. de canvas
+int x0 = 10;     // referentiepositie in de x richting t.o.v. de canvas
+int y0 = 390;    // referentiepositie in de y richting t.o.v. de canvas
 
 Line xAs = new Line();
 xAs.X1 = x0; xAs.Y1 = y0;
@@ -234,7 +236,7 @@ xAs.X2 = x0; xAs.Y2 = y0 - 380;
 > 
 > **Oefening 3.7**
 >
-> We kregen een aantal seconden aangeleverd:
+> We krijgen een aantal seconden aangeleverd:
 >```csharp
 >int aantalSeconden = 2549;
 >```
@@ -266,24 +268,24 @@ xAs.X2 = x0; xAs.Y2 = y0 - 380;
 > * De waarde van de weerstanden bewaart in integer variabelen
 > * De waarde van de bronspanning U vraagt in een textbox
 > * De waarde van de bronspanning bewaart in een double variabele
-> * De serieweerstand R23 berekend en bewaard in een integer variabele
+> * De serieweerstand R23 berekent en bewaart in een integer variabele
 >```csharp
 > int r23 = r2 + r3;
 >```
-> * De parallelweerstand R234 berekend en bewaard in een double variabele
+> * De parallelweerstand R234 berekent en bewaart in een double variabele
 >```csharp
 > double r234 = ( r23 * r4 ) / ( r23 + r4 );
 >```  
-> * De serieweerstand R1234 berekend en bewaard in een double variabele
+> * De serieweerstand R1234 berekent en bewaart in een double variabele
 >```csharp
 > int r1234 = r1 + r234;
 >```
-> * De stroom door de weerstand R1234 berekend en bewaard in een double variabele
+> * De stroom door de weerstand R1234 berekent en bewaart in een double variabele
 >```csharp
 > double it= u / r1234;
 >```  
-> * Het resultaat van R23 weergeeft in een label zonder gebruik te maken van string formatering.
-> * Het restultaat van R234 weergeeft in een label, tot op 2 cijfers na de komma, via string formatering.
+> * Het resultaat van R23 weergeeft in een label zonder gebruik te maken van string formattering.
+> * Het restultaat van R234 weergeeft in een label, tot op 2 cijfers na de komma, via string formattering.
 > * Het resultaat van R1234 weergeeft in een label, rond dit getal af tot op 2 cijfers na de komma. Gebruik hiervoor de functie `Round(double,int)` waarbij `double` het getal is en `int` het aantal cijfers na de komma.
 > * Het resultaat van de stroom door de weerstand R1234 in een label uitgedrukt in mA zonder cijfers na de komma.
 > 

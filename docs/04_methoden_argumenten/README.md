@@ -1,10 +1,10 @@
 # Methoden
 
-Soms moet in een programma meermaals hetzelfde stukje code worden uitgevoerd. Het zou niet efficient zijn om dit telkens opnieuw te schrijven. Daarvoor gebruiken we methoden.
+Soms moet in een programma meermaals hetzelfde stukje code worden uitgevoerd. Het zou niet efficiënt zijn om dit telkens opnieuw te schrijven. Daarvoor gebruiken we methoden.
 
 Een methode is dus een stukje code dat je vanuit andere plaatsen in je code kan oproepen om dit uit te voeren.
 
-Het definieren van een methode gebeurt als volgt:
+Het definiëren van een methode gebeurt als volgt:
 ```csharp
 public void Welkom()
 {
@@ -78,11 +78,11 @@ Gebruik niet dezelfde benaming voor je variabelen, dat zorgt alleen maar verwarr
 >
 > **Oefening 4.3**
 >
->Schrijf een programma met een inputveld voor het jaarsalaris van een werknemen en een inputveld voor het aantal jaren dienst. Bereken via een methode met twee integer parameters hoeveel de werknemen in totaal reeds heeft verdiend en toon het resultaat in een label.
+>Schrijf een programma met een inputveld voor het jaarsalaris van een werknemer en een inputveld voor het aantal jaren dienst. Bereken via een methode met twee integerparameters hoeveel de werknemer in totaal reeds heeft verdiend en toon het resultaat in een label.
 >
 > **Oefening 4.4**
 >
-> Schrijf een programma die via onderstaande methode een cirkel op de canvas tekent. De straal, en de x/y coordinaten van het middelpunt worden ingegeven via een textbox en de cirkel wordt getekend via een knop "Draw".
+> Schrijf een programma die via onderstaande methode een cirkel op de canvas tekent. De straal, en de x/y coördinaten van het middelpunt worden ingegeven via een textbox en de cirkel wordt getekend via een knop "Draw".
 > 
 >```csharp
 > private void DrawCircle(Canvas drawArea, SolidColorBrush brush, double xCentre, double yCentre, double radius)
@@ -145,7 +145,7 @@ Hiervoor gebruiken we de out- en ref-argumenten:
 
 > **Oefening 4.7**
 >
->Schrijf een programma waar je het aantal eurocents kan inbrengen en via een knop "Bereken" dit weergeeft in euro's en eurocents.
+>Schrijf een programma waar je het aantal eurocents kan inbrengen en via een knop "Bereken" dit weergeeft in euro's en eurocenten.
 > ```csharp
 > private void EuroCents(int totaalCents, out int euro, out int cents)
 >{
@@ -179,21 +179,21 @@ Hiervoor gebruiken we de out- en ref-argumenten:
 >
 > **Oefening 4.10**
 >
->Schrijf een programma die de inhoud van een kubus berekend als je de zijde ervan ingeeft. Gebruik terug een knop "Bereken" om dit te doen.
+>Schrijf een programma die de inhoud van een kubus berekent als je de zijde ervan ingeeft. Gebruik terug een knop "Bereken" om dit te doen.
 > ```csharp
 > double volume = KubusVolume(zijde);
 >```
 >
 > **Oefening 4.11**
 >
->Schrijf een programma die via inputvelden het aantal uren, minuten en seconden opvraagd en vervolgens via een knop "Bereken" het totaal aantal seconden uitrekent.
+>Schrijf een programma die via inputvelden het aantal uren, minuten en seconden opvraagt en vervolgens via een knop "Bereken" het totaal aantal seconden uitrekent.
 > ```csharp
 > double seconden = TijdInSeconden(uur, minuten, seconden);
 >```
 >
 > **Oefening 4.12**
 >
->Schrijf een programma met een methode die de inhoud van 2 strings omwisseld.
+>Schrijf een programma met een methode die de inhoud van 2 strings omwisselt.
 > ```csharp
 > swap(... string a, ... string b);
 >```
@@ -204,5 +204,5 @@ Hiervoor gebruiken we de out- en ref-argumenten:
 >Schrijf een programma waar de gebruiker het aantal uren, minuten en seconden kan inbrengen. De ingebrachte waarden worden opgehaald via volgende methode:
 > ```csharp
 > GetInput(... int a, ... int b, ... int c);
->````
+>```
 >Vervolgens wordt het totaal aantal seconden uitgerekend en in een label getoond.

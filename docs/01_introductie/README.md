@@ -6,7 +6,7 @@ Een computerprogramma is **een opeenvolging van instructies** met als doel o
 
 In zijn eenvoudigste vorm kan je dit vergelijken met bv 
 * Een recept
-* Een muziek partituur
+* Een muziekpartituur
 * Een breipatroon
 * Een gebruiksaanwijzing
 * De montage instructies van Ikea
@@ -45,52 +45,56 @@ In deze cursus zullen we **C#** (c sharp) gaan gebruiken.
 Laten we **Windows Verkenner** even opstarten.
 * Wat staat er allemaal op onze C-schijf (OS-drive).
 * Sommigen hebben een D-schijf (Data-drive).
-* Waar staat onze software en waar schrijven we onze DATA weg ?
+* Waar staat onze software en waar schrijven we onze DATA weg?
 
 > **‘Good Practice’** 
 >* Maak een folder waar je alles van school in plaatst
-Vb School of Vives of Graduaat IoT of …
+(vb School of Vives of Graduaat IoT of …)
 >* Maak een folder waar je alles van dit vak plaatst
-Vb Basis programmeren
+(vb Basis programmeren)
 >* Voor elk project (oefening, voorbeeld, programma,… ) zal ook een een folder aangemaakt worden.
 
-De belangrijkste files zijn in je projectfolder zijn:
-* Een Xaml file ( daarin staat de opmaak van de user interface je project )
-* Een cs file ( daarin staat de source code van je project )
-> Om een oefening of project in te dienen moet je die folder comprimeren naar een ZIP-file en die file via Toledo indienen.
-**Let op:** Een ZIP-file kan je niet doormailen binnen VIVES,daarvoor gebruik je dan WinRAR. 
+De belangrijkste files in je projectfolder zijn:
+* Een Xaml-file ( daarin staat de opmaak van de user interface van je project )
+* Een cs-file ( daarin staat de sourcecode van je project )
+> Om een oefening of project in te dienen moet je die folder comprimeren naar een ZIP-file en die file via Toledo indienen. 
+> 
+> **Let op:** Een ZIP-file kan je niet doormailen binnen VIVES, daarvoor gebruik je dan WinRAR. 
 
 ## Een eerste programma maken en uploaden
 
 Laten we klassikaal even de programeeromgeving van *Visual studio* ontdekken:
-* Een nieuw project starten **WPF App (.NET Framework)** met de naam "Voorbeeld 1.1"
-* De Xaml file en cs file bekijken
-* In de Xaml file plaats je steeds **de titel op een zinvolle omschrijving** voor het programma, je zorgt er ook steeds voor de de height en width van jou venster net groot genoeg is om alle objecten te bevaten maar niet groter.
-* In de Xaml file Een object (vb label) toevoegen aan onze form via toolbox
+* Een nieuw project starten **WPF App (.NET Framework)** met de naam "Voorbeeld 1.1".
+* De Xaml-file en cs-file bekijken.
+* In de Xaml-file plaats je steeds **de titel op een zinvolle omschrijving** voor het programma, je zorgt er ook steeds voor de de height en width van jou venster net groot genoeg is om alle objecten te bevatten maar niet groter.
+* In de Xaml-file Een object (vb label) toevoegen aan onze form via toolbox.
 
 ![download](./images/afbeelding2.jpg)
-* Een tweede object toevoegen via de code in te tikken in de xaml file
+
+* Een tweede object toevoegen via de code, in te tikken in de Xaml-file.
 
 ![download](./images/afbeelding3.jpg)
-* Wat experimenteren met de eigenschappen van het object ( tekst, achtergrond, … )
+
+* Wat experimenteren met de eigenschappen van het object ( tekst, achtergrond, … ).
 
 ![download](./images/afbeelding4.jpg)
 
 > **Naamgeving van objecten:**
 Afkorting van het object in kleine letters gevolg door de naam.
-Vb: label = lblVoornaam , button = btnVerzend , …
+(vb: label = lblVoornaam , button = btnVerzend , … )
 
 Nu dien je het gemaakte voorbeeld bij wijze van test in via Toledo:
 * Ga in Windows verkenner naar de folder van je project.
-* Comprimeer de folder naar een ZIP-file
+* Comprimeer de folder naar een ZIP-file.
 
 ![download](./images/afbeelding1.jpg)
-* Indienen via Toledo in het menu Toetsing
+
+* Indienen via Toledo in het menu Toetsing.
 
 ## Een event koppelen aan een object
 
-Laten we een tweede voorbeeld programma ( naam = Oefening 1.2) aanmaken.
-* Plaats een label en een button op jou user interface ( XAML). Alle objecten die je op de user interface plaatst waarmee je interactie moet hebben vanuit de code moeten een naam krijgen. **Zorg dat dit eerst in orde is voor je naar je code overgaat.**
+Laten we een tweede voorbeeldprogramma ( naam = Oefening 1.2) aanmaken.
+* Plaats een label en een button op jouw user interface ( XAML). Alle objecten die je op de user interface plaatst waarmee je interactie moet hebben vanuit de code moeten een naam krijgen. **Zorg dat dit eerst in orde is voor je naar je code overgaat.**
 * Dubbelklik op de button om de "event container" te creëren.
 * Pas de content van je label aan in de event container.
 
@@ -98,7 +102,7 @@ Laten we een tweede voorbeeld programma ( naam = Oefening 1.2) aanmaken.
 >
 >**Oefening 1.3**
 >
-> Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja,Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
+> Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
 > Zorg er nu voor dat:
 > * Bij het aanklikken van button "Ja" alle labels de content "Ja" krijgen.
 > * Bij het aanklikken van button "Nee" alle labels de content "Nee" krijgen.

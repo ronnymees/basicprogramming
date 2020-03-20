@@ -2,7 +2,7 @@
 
 ## Inleiding
 
-Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleerd a.d.h.v. c#. Deze programmer logica en structuur zullen jullie telkens opnieuw kunnen gebruiken bij het schrijven van code binnen IoT oplossingen.
+Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleerd a.d.h.v. c#. Deze programmeerlogica en structuur zullen jullie telkens opnieuw kunnen gebruiken bij het schrijven van code binnen IoT-oplossingen.
 
 ## Inhoud
 

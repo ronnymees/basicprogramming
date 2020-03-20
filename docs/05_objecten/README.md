@@ -5,6 +5,7 @@
 Tot nu toe hebben we steeds met lokale variabelen gewerkt. Deze hebben een scope beperkt tot de methode waarin ze werden gedefinieerd. Echter in sommige gevallen hebben we behoefte aan variabelen die over meerdere methoden heen gebruikt kunnen worden. Zo'n variabele noemen we een **instantievariabele**.
 
 Ze wordt als volgt gedefinieerd:
+
 ```csharp
 public partial class MainWindow : Window
 {
@@ -17,8 +18,9 @@ public partial class MainWindow : Window
     }
 }
 ```
+
 ## Windows constructor
-Als een programma opstart moeten soms stukjes code uitgevoerd worden die enkel bij de opstart nodig zijn. bv enkele parameters invullen. Dat deeltje in onze software code noemen we de **Windows constructor**.
+Als een programma opstart moeten soms stukjes code uitgevoerd worden die enkel bij de opstart nodig zijn. bv enkele parameters invullen. Dat deeltje in onze softwarecode noemen we de **Windows constructor**.
 
 ```csharp
 public partial class MainWindow : Window
@@ -130,7 +132,7 @@ public partial class MainWindow : Window
 >
 > **Oefening 5.4**
 >
->Schrijf een programma dat graden Celcius naar graden Fahrenheit omzet. De Celcius-waarde moet via een slider ingevoerd worden. De waarden in Celcisu en Fahrenheit worden dan ogenblikkelijk getoond in labels alsook in een balkgrafiek.
+>Schrijf een programma dat graden Celcius naar graden Fahrenheit omzet. De Celcius-waarde moet via een slider ingevoerd worden. De waarden in Celcius en Fahrenheit worden dan ogenblikkelijk getoond in labels alsook in een balkgrafiek.
 > ```csharp
 >int f = c * 9 / 5 + 32;
 >```
@@ -141,16 +143,19 @@ public partial class MainWindow : Window
 Omdat we niet telkens alles zelf zouden moeten schrijven heeft de .NET omgeving een enorme bibliotheek aan reeds voorgeschreven stukjes code die we in onze programma’s kunnen gebruiken. Die stukjes noemen we **namespaces**.
 
 We kunnen die als volgt toevoegen aan onze code:
+
 ```csharp
 using System.IO;
 ```
-Het vergt soms wat opzoek werk om te vinden wat er reeds is en welke namespace je dan precies moet aanspreken. De uitgebreide informatie van [.net](https://docs.microsoft.com/en-us/dotnet/csharp/) kan hierbij een hulp zijn.
+
+Het vergt soms wat opzoekwerk om te vinden wat er reeds is en welke namespace je dan precies moet aanspreken. De uitgebreide informatie van [.net](https://docs.microsoft.com/en-us/dotnet/csharp/) kan hierbij een hulp zijn.
 
 > **Oefening 5.5**
 >
 >Om willekeurige getallen te genereren maken we gebruik van een nieuwe class **Random**. Deze is reeds aanwezig in de standaard namespaces dus is er geen behoefte aan een extra **namespace**, dus hebben we geen nood aan een **using** verwijzing.
 >
 > De user-interface ziet er als volgt uit:
+>
 >```yaml
 ><Grid>
 >        <Label Content="The computer guesses that your age is" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top"/>
@@ -190,6 +195,7 @@ Het vergt soms wat opzoek werk om te vinden wat er reeds is en welke namespace j
 >```
 >
 > **Vragen**
+>
 >Zoek informatie over de class Random op en beantwoord volgende vragen:
 > 
 >* Kan je enkel `integers` genereren met de Random class?
@@ -200,6 +206,7 @@ Het vergt soms wat opzoek werk om te vinden wat er reeds is en welke namespace j
 >
 >Om tijdsgebonden code te kunnen uitvoeren maken we gebruik van een nieuwe class **DispatcherTimer** uit een nieuwe **namespace System.Windows.Threading**, dus hebben we nood aan een **using** verwijzing.
 > De user-interface ziet er als volgt uit:
+>
 > ```yaml
 ><Grid>
 >        <Button Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Width="75" Click="BtnStart_Click"/>
@@ -212,6 +219,7 @@ Het vergt soms wat opzoek werk om te vinden wat er reeds is en welke namespace j
 >```
 >
 > Voeg volgende sourcode toe:
+>
 >```csharp
 >public partial class MainWindow : Window
 >{
@@ -291,7 +299,7 @@ Het vergt soms wat opzoek werk om te vinden wat er reeds is en welke namespace j
 >
 > **Oefening 5.7**
 >
->Schrijf een programma dat elkens je op de knop "Next" klikt een nieuw willekeurig getal tussen 200 en 400 genereert. Het getal wordt in een label getoond samen met de som en het gemiddelde van alle tot nu toe gegenereerde getallen.
+>Schrijf een programma dat telkens je op de knop "Next" klikt een nieuw willekeurig getal tussen 200 en 400 genereert. Het getal wordt in een label getoond samen met de som en het gemiddelde van alle tot nu toe gegenereerde getallen.
 >
 >**Controle**: Als je doorgaat met klikken moet het gemiddelde dichter en dichter bij 300 komen te liggen.
 >
@@ -310,4 +318,5 @@ Het vergt soms wat opzoek werk om te vinden wat er reeds is en welke namespace j
 >Schrijf een programma dat het aantal minuten en seconden dat het programma loopt laat zien door twee balken te tonen op een canvas. Maak de canvas 600 pixels breed zodat elke minuut of seconde met 10 pixels overeenkomt.
 >
 >**Tip** Maak gebruik van een timer die elke seconde iets doet. Het totaal aantal seconden kan je converteren naar minuten en seconden via de / en % operatoren. Om het programma te testen kan je het tijdsinterval verkleinen.
+>
 >![download](./images/afbeelding5.png)
