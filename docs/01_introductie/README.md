@@ -19,11 +19,11 @@ Als voorbeeld nemen we een fles shampoo, het ‘programma’ zou dan kunnen zijn
 4. Spoel de shampoo uit je haar
 5. Droog je haar af
 
-:::warning **Nota:**
+:::warning Nota:
 Een programma is dus een logische opeenvolging van handelingen/instructies die er voor zorgen dat een taak volbracht kan worden.
 :::
 
-:::tip **Oefening 1.1**
+:::tip Oefening 1.1
 Ga in 5 groepjes zitten en schrijf de instructies neer om: 
 * Een biefstuk te bakken
 * Een pint te tappen
@@ -49,19 +49,23 @@ Laten we **Windows Verkenner** even opstarten.
 * Sommigen hebben een D-schijf (Data-drive).
 * Waar staat onze software en waar schrijven we onze DATA weg?
 
-> **‘Good Practice’** 
->* Maak een folder waar je alles van school in plaatst
+:::warning ‘Good Practice’
+* Maak een folder waar je alles van school in plaatst
 (vb School of Vives of Graduaat IoT of …)
->* Maak een folder waar je alles van dit vak plaatst
+* Maak een folder waar je alles van dit vak plaatst
 (vb Basis programmeren)
->* Voor elk project (oefening, voorbeeld, programma,… ) zal ook een een folder aangemaakt worden.
+* Voor elk project (oefening, voorbeeld, programma,… ) zal ook een een folder aangemaakt worden.
+:::
 
 De belangrijkste files in je projectfolder zijn:
 * Een Xaml-file ( daarin staat de opmaak van de user interface van je project )
 * Een cs-file ( daarin staat de sourcecode van je project )
-> Om een oefening of project in te dienen moet je die folder comprimeren naar een ZIP-file en die file via Toledo indienen. 
-> 
-> **Let op:** Een ZIP-file kan je niet doormailen binnen VIVES, daarvoor gebruik je dan WinRAR. 
+
+:::warning Indienen files
+Om een oefening of project in te dienen moet je die folder comprimeren naar een ZIP-file en die file via Toledo indienen. 
+
+**Let op:** Een ZIP-file kan je niet doormailen binnen VIVES, daarvoor gebruik je dan WinRAR. 
+:::
 
 ## Een eerste programma maken en uploaden
 
@@ -81,9 +85,10 @@ Laten we klassikaal even de programeeromgeving van *Visual studio* ontdekken:
 
 ![download](./images/afbeelding4.jpg)
 
-> **Naamgeving van objecten:**
+:::warning Naamgeving van objecten:
 Afkorting van het object in kleine letters gevolg door de naam.
 (vb: label = lblVoornaam , button = btnVerzend , … )
+:::
 
 Nu dien je het gemaakte voorbeeld bij wijze van test in via Toledo:
 * Ga in Windows verkenner naar de folder van je project.
@@ -100,14 +105,14 @@ Laten we een tweede voorbeeldprogramma ( naam = Oefening 1.2) aanmaken.
 * Dubbelklik op de button om de "event container" te creëren.
 * Pas de content van je label aan in de event container.
 
-> **Taak 1**
->
->**Oefening 1.3**
->
-> Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
-> Zorg er nu voor dat:
-> * Bij het aanklikken van button "Ja" alle labels de content "Ja" krijgen.
-> * Bij het aanklikken van button "Nee" alle labels de content "Nee" krijgen.
-> * Bij het aanklikken van button "Reset" alle labels terug hun originele content A,B en C krijgen.
+:::tip Taak 1
 
+**Oefening 1.3**
+
+ Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
+ Zorg er nu voor dat:
+ * Bij het aanklikken van button "Ja" alle labels de content "Ja" krijgen.
+ * Bij het aanklikken van button "Nee" alle labels de content "Nee" krijgen.
+ * Bij het aanklikken van button "Reset" alle labels terug hun originele content A,B en C krijgen.
+:::
 
