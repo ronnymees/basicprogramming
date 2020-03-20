@@ -21,7 +21,7 @@ Als voorbeeld nemen we een fles shampoo, het ‘programma’ zou dan kunnen zijn
 
 :::warning **Nota:**
 Een programma is dus een logische opeenvolging van handelingen/instructies die er voor zorgen dat een taak volbracht kan worden.
-::
+:::
 
 :::tip **Oefening 1.1**
 Ga in 5 groepjes zitten en schrijf de instructies neer om: 
