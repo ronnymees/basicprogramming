@@ -16,34 +16,34 @@ Laten we dit even uitproberen in een voorbeeldprogramma ( naam = Oefening 2.1).
     }
     ```
 
-Enkele oefeningen:
+:::tip Enkele oefeningen:
+**Oefening 2.2**
 
->**Oefening 2.2**
->
-> Schrijf een programma met 1 label "Message" en 2 knoppen "ON" en "OFF" in de user interface.
-> Klik je op de "ON" knop wordt het label zichtbaar, klik je op de "OFF" knop dan wordt het label onzichtbaar.
->
-> **Tip**: Maak gebruik van de eigenschap Visibility.Visible (zichtbaar) , Visibility.Collapsed (onzichtbaar).
->
->lblMessage.Visibility = Visibility.Collapsed;
+Schrijf een programma met 1 label "Message" en 2 knoppen "ON" en "OFF" in de user interface.
+Klik je op de "ON" knop wordt het label zichtbaar, klik je op de "OFF" knop dan wordt het label onzichtbaar.
 
->**Oefening 2.3**
->
-> Schrijf een programma dat bij het starten van het programma een eerste messagebox toont met je voornaam en naam en daarna een tweede messagebox toont met jouw leeftijd.
->
-> **Tip** : Maak gebruik van het *Loaded* event van het venster.
->
-> Klik hiervoor op het bliksempje als je het venster hebt geselecteerd en zoek het Loaded event.
->
-> ![download](./images/afbeelding2.png)
->
-> Dubbelklik er vervolgens op om de event methode aan te maken in de sourcecode.
->
-> ![download](./images/afbeelding3.png)
+**Tip**: Maak gebruik van de eigenschap Visibility.Visible (zichtbaar) , Visibility.Collapsed (onzichtbaar).
 
->**Oefening 2.4**
->
-> Het event *MouseEnter* treedt op wanneer de cursor over een object wordt bewogen. Schrijf nu een programma dat een Messagebox laat zien met de tekst "Over Button" zodra je de muis boven een knop houdt.
+lblMessage.Visibility = Visibility.Collapsed;
+
+**Oefening 2.3**
+
+Schrijf een programma dat bij het starten van het programma een eerste messagebox toont met je voornaam en naam en daarna een tweede messagebox toont met jouw leeftijd.
+
+**Tip** : Maak gebruik van het *Loaded* event van het venster.
+
+Klik hiervoor op het bliksempje als je het venster hebt geselecteerd en zoek het Loaded event.
+
+![download](./images/afbeelding2.png)
+
+Dubbelklik er vervolgens op om de event methode aan te maken in de sourcecode.
+
+![download](./images/afbeelding3.png)
+
+**Oefening 2.4**
+
+Het event *MouseEnter* treedt op wanneer de cursor over een object wordt bewogen. Schrijf nu een programma dat een Messagebox laat zien met de tekst "Over Button" zodra je de muis boven een knop houdt.
+:::
 
 ## De grafische interface
 
@@ -157,24 +157,25 @@ afbeelding.Width = 150; // Dit is commentaar na een lijncode
 ```
 Met de laatste methode kan je ook tijdelijk stukken code uitschakelen.
 
-> **Taak 2**
->
-> **Oefening 2.5**
->
-> Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker- en onderzijde van het canvas zijn hoek van 90 graden heeft.
->
-> **Oefening 2.6**
->
-> Schrijf een programma met een knop "SHOW" en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoond. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
->
->![download](./images/afbeelding7.png)
->
-> **Oefening 2.7**
->
-> Dit zijn de gegevens van de jaarlijkse regenval an het fictieve land Tatooine.
->
-> 2009: 150cm, 2010: 175cm, 2011: 120cm, 2012: 130cm, 2013:180cm, 2014: 115cm
->
-> Schrijf een programma met een knop "GRAPH" en een canvas van 200x200. Als men op de Graph-knop drukt worden de gegeven in een lijn en balk grafiek weergegeven. Zorg voor aslijnen in een zwarte kleur. De lijngrafiek krijgt een blauwe kleur en de balkgrafiek een groene kleur.
-> 
->![download](./images/afbeelding8.png)
+:::tip Taak 2
+
+**Oefening 2.5**
+
+Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker- en onderzijde van het canvas zijn hoek van 90 graden heeft.
+
+**Oefening 2.6**
+
+Schrijf een programma met een knop "SHOW" en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoond. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
+
+![download](./images/afbeelding7.png)
+
+**Oefening 2.7**
+
+Dit zijn de gegevens van de jaarlijkse regenval an het fictieve land Tatooine.
+
+2009: 150cm, 2010: 175cm, 2011: 120cm, 2012: 130cm, 2013:180cm, 2014: 115cm
+
+Schrijf een programma met een knop "GRAPH" en een canvas van 200x200. Als men op de Graph-knop drukt worden de gegeven in een lijn en balk grafiek weergegeven. Zorg voor aslijnen in een zwarte kleur. De lijngrafiek krijgt een blauwe kleur en de balkgrafiek een groene kleur.
+ 
+![download](./images/afbeelding8.png)
+:::
