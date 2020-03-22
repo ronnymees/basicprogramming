@@ -23,8 +23,8 @@ Als voorbeeld nemen we een fles shampoo, het ‘programma’ zou dan kunnen zijn
 Een programma is dus een logische opeenvolging van handelingen/instructies die er voor zorgen dat een taak volbracht kan worden.
 :::
 
-:::tip Oefening 1.1
-Ga in 5 groepjes zitten en schrijf de instructies neer om: 
+:::tip Oefening
+**1.1** Ga in 5 groepjes zitten en schrijf de instructies neer om: 
 * Een biefstuk te bakken
 * Een pint te tappen
 * Te tanken
@@ -70,7 +70,7 @@ Om een oefening of project in te dienen moet je die folder comprimeren naar een 
 ## Een eerste programma maken en uploaden
 
 Laten we klassikaal even de programeeromgeving van *Visual studio* ontdekken:
-* Een nieuw project starten **WPF App (.NET Framework)** met de naam "Voorbeeld 1.1".
+* Een nieuw project starten **WPF App (.NET Framework)** met de naam **Uploadvoorbeeld**.
 * De Xaml-file en cs-file bekijken.
 * In de Xaml-file plaats je steeds **de titel op een zinvolle omschrijving** voor het programma, je zorgt er ook steeds voor de de height en width van jou venster net groot genoeg is om alle objecten te bevatten maar niet groter.
 * In de Xaml-file Een object (vb label) toevoegen aan onze form via toolbox.
@@ -100,16 +100,17 @@ Nu dien je het gemaakte voorbeeld bij wijze van test in via Toledo:
 
 ## Een event koppelen aan een object
 
-Laten we een tweede voorbeeldprogramma ( naam = Oefening 1.2) aanmaken.
+:::tip Oefening
+
+**1.2** Laten we een tweede voorbeeldprogramma ( naam = Oefening 1.2) aanmaken.
 * Plaats een label en een button op jouw user interface ( XAML). Alle objecten die je op de user interface plaatst waarmee je interactie moet hebben vanuit de code moeten een naam krijgen. **Zorg dat dit eerst in orde is voor je naar je code overgaat.**
 * Dubbelklik op de button om de "event container" te creëren.
 * Pas de content van je label aan in de event container.
+:::
 
 :::tip Taak 1
 
-**Oefening 1.3**
-
- Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
+ **1.3** Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
  Zorg er nu voor dat:
  * Bij het aanklikken van button "Ja" alle labels de content "Ja" krijgen.
  * Bij het aanklikken van button "Nee" alle labels de content "Nee" krijgen.
