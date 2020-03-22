@@ -38,9 +38,9 @@ public partial class MainWindow : Window
 }
 ```
 
-:::tip Oefening 5.1
+:::tip Oefening
 
-Schrijf een programma met volgende user interface :
+**5.1** Schrijf een programma met volgende user interface :
 
 ```yaml
 <Grid>
@@ -118,23 +118,17 @@ Probeer het programma te begrijpen.
 
 ::: tip Taak 7
 
-**Oefening 5.2**
-
-Schrijf een programma met volgende interface:
+**5.2** Schrijf een programma met volgende interface:
 
 ![download](./images/afbeelding1.png)
 
 Wanneer de "Set" knop wordt aangeklikt, worden de nieuwe minimum en maximum voor de schuifregelaar ingesteld. Bij het verplaatsen van de schuifregelaar wordt de waarde in het label getoond.
 
-**Oefening 5.3**
-
-Schrijf een programma dat in het begin het getal 1 op een label laat zien. Door het aanklikken van de + of - knop wordt de waarde telkens met 1 verhoogd of verlaagd. Maak gebruik van een private variabele, die geïnitialiseerd is op 1 en stel het label in de constructor in.
+**5.3** Schrijf een programma dat in het begin het getal 1 op een label laat zien. Door het aanklikken van de + of - knop wordt de waarde telkens met 1 verhoogd of verlaagd. Maak gebruik van een private variabele, die geïnitialiseerd is op 1 en stel het label in de constructor in.
 
 ![download](./images/afbeelding2.png)
 
-**Oefening 5.4**
-
-Schrijf een programma dat graden Celcius naar graden Fahrenheit omzet. De Celcius-waarde moet via een slider ingevoerd worden. De waarden in Celcius en Fahrenheit worden dan ogenblikkelijk getoond in labels alsook in een balkgrafiek.
+**5.4** Schrijf een programma dat graden Celcius naar graden Fahrenheit omzet. De Celcius-waarde moet via een slider ingevoerd worden. De waarden in Celcius en Fahrenheit worden dan ogenblikkelijk getoond in labels alsook in een balkgrafiek.
 ```csharp
 int f = c * 9 / 5 + 32;
 ```
@@ -153,10 +147,9 @@ using System.IO;
 
 Het vergt soms wat opzoekwerk om te vinden wat er reeds is en welke namespace je dan precies moet aanspreken. De uitgebreide informatie van [.net](https://docs.microsoft.com/en-us/dotnet/csharp/) kan hierbij een hulp zijn.
 
-:::tip Oefeningen:
-**Oefening 5.5**
+:::tip Oefeningen
 
-Om willekeurige getallen te genereren maken we gebruik van een nieuwe class **Random**. Deze is reeds aanwezig in de standaard namespaces dus is er geen behoefte aan een extra **namespace**, dus hebben we geen nood aan een **using** verwijzing.
+**5.5** Om willekeurige getallen te genereren maken we gebruik van een nieuwe class **Random**. Deze is reeds aanwezig in de standaard namespaces dus is er geen behoefte aan een extra **namespace**, dus hebben we geen nood aan een **using** verwijzing.
 
 De user-interface ziet er als volgt uit:
 
@@ -206,9 +199,7 @@ Zoek informatie over de class Random op en beantwoord volgende vragen:
 * `.Next(5,10)` levert dit getallen op tussen 5 en 10 inclusief de grenswaarden of niet?
 * Als je meerdere willekeurige getallen nodig hebt, moet je dan ook meerdere Random variabelen aanmaken?
 
-**Oefening 5.6**
-
-Om tijdsgebonden code te kunnen uitvoeren maken we gebruik van een nieuwe class **DispatcherTimer** uit een nieuwe **namespace System.Windows.Threading**, dus hebben we nood aan een **using** verwijzing.
+**5.6** Om tijdsgebonden code te kunnen uitvoeren maken we gebruik van een nieuwe class **DispatcherTimer** uit een nieuwe **namespace System.Windows.Threading**, dus hebben we nood aan een **using** verwijzing.
 De user-interface ziet er als volgt uit:
 
 ```yaml
@@ -302,15 +293,11 @@ public partial class MainWindow : Window
 
 :::tip Taak 8
 
-**Oefening 5.7**
-
-Schrijf een programma dat telkens je op de knop "Next" klikt een nieuw willekeurig getal tussen 200 en 400 genereert. Het getal wordt in een label getoond samen met de som en het gemiddelde van alle tot nu toe gegenereerde getallen.
+**5.7** Schrijf een programma dat telkens je op de knop "Next" klikt een nieuw willekeurig getal tussen 200 en 400 genereert. Het getal wordt in een label getoond samen met de som en het gemiddelde van alle tot nu toe gegenereerde getallen.
 
 **Controle**: Als je doorgaat met klikken moet het gemiddelde dichter en dichter bij 300 komen te liggen.
 
-**Oefening 5.8**
-
-Schrijf een programma dat de inhoud van een zwembad bepaalt en tevens de dwarsdoorsnede ervan in een canvas laat zien. De breedte van het zwembad is 5 meter en de lengte 20 meter. De minimum diepte aan beide uiteinden is 1 meter en kan gewijzigd worden door twee sliders.
+**5.8** Schrijf een programma dat de inhoud van een zwembad bepaalt en tevens de dwarsdoorsnede ervan in een canvas laat zien. De breedte van het zwembad is 5 meter en de lengte 20 meter. De minimum diepte aan beide uiteinden is 1 meter en kan gewijzigd worden door twee sliders.
 
 ```csharp
 int gemdiepte = ( diepte1 + diepte2 ) / 2;
@@ -318,9 +305,7 @@ int volume = gemdiepte * breedte * lengte;
 ```
 ![download](./images/afbeelding4.png)
 
-**Oefening 5.9**
-
-Schrijf een programma dat het aantal minuten en seconden dat het programma loopt laat zien door twee balken te tonen op een canvas. Maak de canvas 600 pixels breed zodat elke minuut of seconde met 10 pixels overeenkomt.
+**5.9** Schrijf een programma dat het aantal minuten en seconden dat het programma loopt laat zien door twee balken te tonen op een canvas. Maak de canvas 600 pixels breed zodat elke minuut of seconde met 10 pixels overeenkomt.
 
 **Tip** Maak gebruik van een timer die elke seconde iets doet. Het totaal aantal seconden kan je converteren naar minuten en seconden via de / en % operatoren. Om het programma te testen kan je het tijdsinterval verkleinen.
 

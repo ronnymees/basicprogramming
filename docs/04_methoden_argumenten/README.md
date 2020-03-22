@@ -18,9 +18,9 @@ We onderscheiden hier het volgende :
 * `public` of `private` : de scope waar deze methode geldig is. Indien public kan je de methode ook vanop externe code oproepen, bij private kan dit niet.
 * `void` : de methode geeft geen returns waarde. M.a.w. het stukje code wordt uitgevoerd zonder dat er een resultaat uit voortvloeit.
 
-:::tip Oefening 4.1
+:::tip Oefening
 
-Schrijf een programma die gebruik maakt van een methode om de tekst "Graduaat Internet of Things" op het scherm weer te geven via een label.
+**4.1** Schrijf een programma die gebruik maakt van een methode om de tekst "Graduaat Internet of Things" op het scherm weer te geven via een label.
 :::
 
 ## Gebruik van parameters
@@ -44,9 +44,9 @@ De variabelen `vnaam` en `fnaam` of parameters hebben een scope die enkel geldig
 Gebruik niet dezelfde benaming voor je variabelen, dat zorgt alleen maar verwarring bij het lezen van je code of het debuggen ervan.
 :::
 
-:::tip Oefening 4.2
+:::tip Oefening
 
-Schrijf een programma met een canvas en een knop "Draw".
+**4.2** Schrijf een programma met een canvas en een knop "Draw".
 Gebruik onderstaande code en probeer de werking te begrijpen.
 
 ```csharp
@@ -78,13 +78,9 @@ private void DrawLine(Canvas Area, SolidColorBrush brushColor, double startX, do
 
 :::tip Taak 5
 
-**Oefening 4.3**
+**4.3** Schrijf een programma met een inputveld voor het jaarsalaris van een werknemer en een inputveld voor het aantal jaren dienst. Bereken via een methode met twee integerparameters hoeveel de werknemer in totaal reeds heeft verdiend en toon het resultaat in een label.
 
-Schrijf een programma met een inputveld voor het jaarsalaris van een werknemer en een inputveld voor het aantal jaren dienst. Bereken via een methode met twee integerparameters hoeveel de werknemer in totaal reeds heeft verdiend en toon het resultaat in een label.
-
-**Oefening 4.4**
-
-Schrijf een programma die via onderstaande methode een cirkel op de canvas tekent. De straal, en de x/y coördinaten van het middelpunt worden ingegeven via een textbox en de cirkel wordt getekend via een knop "Draw".
+**4.4** Schrijf een programma die via onderstaande methode een cirkel op de canvas tekent. De straal, en de x/y coördinaten van het middelpunt worden ingegeven via een textbox en de cirkel wordt getekend via een knop "Draw".
  
 ```csharp
  private void DrawCircle(Canvas drawArea, SolidColorBrush brush, double xCentre, double yCentre, double radius)
@@ -110,17 +106,14 @@ Wat je als resultaat teruggeeft kan van om het even welk datatype zijn.
 Het is belangrijk dat wat je return stuurt van het juiste datatype is zoals je voor de functie hebt gedefinieerd.
 :::
 
-:::tip Oefeningen:
-**Oefening 4.5**
+:::tip Oefeningen
 
-Schrijf een programma met een inputveld voor het aantal graden in Fahrenheit. Via een knop "Convert" spreek je een functie `ConvertFtoC()` aan en plaats je vervolgens het resultaat in een label.
+**4.5** Schrijf een programma met een inputveld voor het aantal graden in Fahrenheit. Via een knop "Convert" spreek je een functie `ConvertFtoC()` aan en plaats je vervolgens het resultaat in een label.
 ```csharp
 celcius = ( fahrenheit - 32) * 5 / 9;
 ```
 
-**Oefening 4.6**
-
-Schrijf een programma waarmee we een paswoord kunnen genereren.
+**4.6** Schrijf een programma waarmee we een paswoord kunnen genereren.
 Het paswoord is als volgt opgebouwd:
 * 3de letter van de familienaam
 * 2de letter van de voornaam als hoofdletter
@@ -149,10 +142,9 @@ Hiervoor gebruiken we de out- en ref-argumenten:
 * **ref**: de waarde van het argument wordt doorgegeven aan de methode, maar komt ook als resultaat terug.
 * **out**: het argument ontvangt enkel een resultaat maar geeft geen waarde door aan de methode.
 
-:::tip Oefeningen:
-**Oefening 4.7**
+:::tip Oefeningen
 
-Schrijf een programma waar je het aantal eurocents kan inbrengen en via een knop "Bereken" dit weergeeft in euro's en eurocenten.
+**4.7** Schrijf een programma waar je het aantal eurocents kan inbrengen en via een knop "Bereken" dit weergeeft in euro's en eurocenten.
 ```csharp
 private void EuroCents(int totaalCents, out int euro, out int cents)
 {
@@ -163,9 +155,7 @@ private void EuroCents(int totaalCents, out int euro, out int cents)
 EuroCents(inputcents, out int euro, out int cents);
 ```
 
-**Oefening 4.8**
-
-Schrijf een programma met een methode waarmee je een afmeting kunt verhogen.
+**4.8** Schrijf een programma met een methode waarmee je een afmeting kunt verhogen.
 ```csharp
 private void Verhoog(ref int input, int waarde)
 {
@@ -178,38 +168,28 @@ Verhoog(ref int lengte, 10 );
 
 :::tip Taak 6
 
-**Oefening 4.9**
-
-Schrijf een programma waar je een bedrag in dollars kunt ingeven en via een knop "Convert" dit kan omrekenen naar euro's. Je zoekt zelf de huidige wisselkoers op.
+**4.9** Schrijf een programma waar je een bedrag in dollars kunt ingeven en via een knop "Convert" dit kan omrekenen naar euro's. Je zoekt zelf de huidige wisselkoers op.
 ```csharp
 double euro = DollarToEuro(dollar);
 ```
 
-**Oefening 4.10**
-
-Schrijf een programma die de inhoud van een kubus berekent als je de zijde ervan ingeeft. Gebruik terug een knop "Bereken" om dit te doen.
+**4.10** Schrijf een programma die de inhoud van een kubus berekent als je de zijde ervan ingeeft. Gebruik terug een knop "Bereken" om dit te doen.
 ```csharp
 double volume = KubusVolume(zijde);
 ```
 
-**Oefening 4.11**
-
-Schrijf een programma die via inputvelden het aantal uren, minuten en seconden opvraagt en vervolgens via een knop "Bereken" het totaal aantal seconden uitrekent.
+**4.11** Schrijf een programma die via inputvelden het aantal uren, minuten en seconden opvraagt en vervolgens via een knop "Bereken" het totaal aantal seconden uitrekent.
 ```csharp
 double seconden = TijdInSeconden(uur, minuten, seconden);
 ```
 
-**Oefening 4.12**
-
-Schrijf een programma met een methode die de inhoud van 2 strings omwisselt.
+**4.12** Schrijf een programma met een methode die de inhoud van 2 strings omwisselt.
 ```csharp
 swap(... string a, ... string b);
 ```
 De inhoud van a komt in b en omgekeerd. (op de ... komt dus ofwel `out` ofwel `ref` te staan)
 
-**Oefening 4.13**
-
-Schrijf een programma waar de gebruiker het aantal uren, minuten en seconden kan inbrengen. De ingebrachte waarden worden opgehaald via volgende methode:
+**4.13** Schrijf een programma waar de gebruiker het aantal uren, minuten en seconden kan inbrengen. De ingebrachte waarden worden opgehaald via volgende methode:
 ```csharp
 GetInput(... int a, ... int b, ... int c);
 ```

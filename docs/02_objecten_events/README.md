@@ -6,7 +6,7 @@ Een **messagebox** is een venster die verschijnt met een melding en een OK-butto
 
 ![download](./images/afbeelding1.png)
 
-Laten we dit even uitproberen in een voorbeeldprogramma ( naam = Oefening 2.1).
+Laten we dit even uitproberen in een voorbeeldprogramma ( naam = **Oefening 2.1**).
 * Plaats een button op jouw user interface ( XAML).
 * Dubbelklik op de button om de "event container" te creëren.
 * Roep de messagebox als volgt op:
@@ -17,18 +17,15 @@ Laten we dit even uitproberen in een voorbeeldprogramma ( naam = Oefening 2.1).
     ```
 
 :::tip Enkele oefeningen:
-**Oefening 2.2**
 
-Schrijf een programma met 1 label "Message" en 2 knoppen "ON" en "OFF" in de user interface.
+**2.2** Schrijf een programma met 1 label "Message" en 2 knoppen "ON" en "OFF" in de user interface.
 Klik je op de "ON" knop wordt het label zichtbaar, klik je op de "OFF" knop dan wordt het label onzichtbaar.
 
 **Tip**: Maak gebruik van de eigenschap Visibility.Visible (zichtbaar) , Visibility.Collapsed (onzichtbaar).
 
 lblMessage.Visibility = Visibility.Collapsed;
 
-**Oefening 2.3**
-
-Schrijf een programma dat bij het starten van het programma een eerste messagebox toont met je voornaam en naam en daarna een tweede messagebox toont met jouw leeftijd.
+**2.3** Schrijf een programma dat bij het starten van het programma een eerste messagebox toont met je voornaam en naam en daarna een tweede messagebox toont met jouw leeftijd.
 
 **Tip** : Maak gebruik van het *Loaded* event van het venster.
 
@@ -40,9 +37,7 @@ Dubbelklik er vervolgens op om de event methode aan te maken in de sourcecode.
 
 ![download](./images/afbeelding3.png)
 
-**Oefening 2.4**
-
-Het event *MouseEnter* treedt op wanneer de cursor over een object wordt bewogen. Schrijf nu een programma dat een Messagebox laat zien met de tekst "Over Button" zodra je de muis boven een knop houdt.
+**2.4** Het event *MouseEnter* treedt op wanneer de cursor over een object wordt bewogen. Schrijf nu een programma dat een Messagebox laat zien met de tekst "Over Button" zodra je de muis boven een knop houdt.
 :::
 
 ## De grafische interface
@@ -159,19 +154,13 @@ Met de laatste methode kan je ook tijdelijk stukken code uitschakelen.
 
 :::tip Taak 2
 
-**Oefening 2.5**
+**2.5** Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker- en onderzijde van het canvas zijn hoek van 90 graden heeft.
 
-Schrijf een programma met een knop "DRAW" en een canvas van 400x400. Als men op de Draw-knop drukt wordt een rechthoekige driehoek weergegeven op het canvas. Zorg er voor dat je driehoek op 25 pixels van de linker- en onderzijde van het canvas zijn hoek van 90 graden heeft.
-
-**Oefening 2.6**
-
-Schrijf een programma met een knop "SHOW" en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoond. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
+**2.6** Schrijf een programma met een knop "SHOW" en een canvas van 400x400. Als men op de Show-knop drukt wordt een leeg boter-kaas-en-eierenbord getoond. De buitenzijde is met een rechthoek getekend en de rest met lijnen. Dit is in de XAML voorzien en wordt enkel visueel geplaats vanuit de code.
 
 ![download](./images/afbeelding7.png)
 
-**Oefening 2.7**
-
-Dit zijn de gegevens van de jaarlijkse regenval an het fictieve land Tatooine.
+**2.7** Dit zijn de gegevens van de jaarlijkse regenval an het fictieve land Tatooine.
 
 2009: 150cm, 2010: 175cm, 2011: 120cm, 2012: 130cm, 2013:180cm, 2014: 115cm
 

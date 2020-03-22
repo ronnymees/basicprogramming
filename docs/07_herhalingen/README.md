@@ -19,9 +19,9 @@ for( int i=1 ; i<10 ; i++ ) {
 }
 ```
 
-:::tip Oefening 7.1
+:::tip Oefening
 
-Schrijf een programma met volgende user interface :
+**7.1** Schrijf een programma met volgende user interface :
 
 ```yaml
  <Grid>
@@ -72,23 +72,15 @@ Het aantal keer dat de lus doorlopen wordt is weliswaar variabel, maar net op he
 
 :::tip Taak 11
 
-**Oefening 7.2**
-
-Schrijf een programma dat met behulp van een lus de getallen 1 t.e.m. 10 en de derde macht hiervan op het scherm laat zien.
+**7.2** Schrijf een programma dat met behulp van een lus de getallen 1 t.e.m. 10 en de derde macht hiervan op het scherm laat zien.
 
 ![download](./images/afbeelding1.png)
 
-**Oefening 7.3**
+**7.3** Schrijf een programma dat met behulp van een lus willekeurige getallen tussen 1 en 100 op het scherm toont in een tekstvak.
 
-Schrijf een programma dat met behulp van een lus willekeurige getallen tussen 1 en 100 op het scherm toont in een tekstvak.
-
-**Oefening 7.4**
-
-Schrijf een programma dat 100 cirkels met willekeurige stralen tot 100 pixels op willekeurige posities in een canvas van 500x500 tekent.
+**7.4** Schrijf een programma dat 100 cirkels met willekeurige stralen tot 100 pixels op willekeurige posities in een canvas van 500x500 tekent.
  
-**Oefening 7.5**
-
-Schrijf een programma dat een trap van vierkantjes tekent. Elk vierkantje wordt met een methode 'DrawRectangle' getekend.
+**7.5** Schrijf een programma dat een trap van vierkantjes tekent. Elk vierkantje wordt met een methode 'DrawRectangle' getekend.
 
 ![download](./images/afbeelding2.png)
 :::
@@ -111,9 +103,9 @@ while ( (i<10) && ( temp > 0 ) )
 }
 ```
 
-:::tip Oefening 7.6
+:::tip Oefening
 
-Schrijf een programma met volgende user interface :
+**7.6** Schrijf een programma met volgende user interface :
 
 ```yaml
 <Grid>
@@ -230,9 +222,7 @@ private int Sum(int[] getallen)
 
 :::tip Taak 12
 
-**Oefening 7.7**
-
-Schrijf een programma dat de getallen 0 t.e.m. 39 met behulp van een lus optelt en plaats het resultaat in een label. Voorzie een controle en toon het controleresultaat eveneens in een label.
+**7.7** Schrijf een programma dat de getallen 0 t.e.m. 39 met behulp van een lus optelt en plaats het resultaat in een label. Voorzie een controle en toon het controleresultaat eveneens in een label.
 
 ```csharp
 int som = n * ( n + 1 ) / 2;
@@ -241,9 +231,7 @@ Pas vervolgens het programma aan zodat n kan ingegeven worden i.p.v. een vaste w
 
 ![download](./images/afbeelding3.png)
 
-**Oefening 7.8**
-
-Schrijf een programma dat een vermenigvuldigingstabel laat zien. Hieronder een voorbeeld voor 1 t.e.m. 5:
+**7.8** Schrijf een programma dat een vermenigvuldigingstabel laat zien. Hieronder een voorbeeld voor 1 t.e.m. 5:
 
 ![download](./images/afbeelding4.png)
 
@@ -251,16 +239,12 @@ Zorg er voor dat het bereik tot waar de tabel moet weergegeven worden kan ingevu
 
 **tip:** In een string de code `\t` toevoegen zorgt voor een tab.
 
-**Oefening 7.9**
-
-Schrijf een programma dat de som van volgende reeks weet te berekenen en op het scherm toont.
+**7.9** Schrijf een programma dat de som van volgende reeks weet te berekenen en op het scherm toont.
 Je blijft optellen in de reeks tot de term een waarde heeft bereikt die kleiner is dan 0,0001.
 
 1 - 1/2 + 1/3 - 1/4 + ...
 
-**Oefening 7.10**
-
-Schrijf een programma waar de gebruiker voor een periode van 14 dagen het aantal ml neerslag kan inbrengen. Elke waarde wordt op een nieuwe regel in een textbox getoont. Als de laatste dag is ingebracht worden volgende gegevens op het scherm getoont:
+**7.10** Schrijf een programma waar de gebruiker voor een periode van 14 dagen het aantal ml neerslag kan inbrengen. Elke waarde wordt op een nieuwe regel in een textbox getoont. Als de laatste dag is ingebracht worden volgende gegevens op het scherm getoont:
 * de gemiddelde neerslag gedurende die periode;
 * de hoogste en laagste waarde van de neerslag;
 * de dagen waarop die hoogste en laagste waarde zijn voorgekomen.

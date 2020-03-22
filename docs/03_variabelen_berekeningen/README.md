@@ -73,9 +73,9 @@ i = 3 / 2;      Het resultaat is 1
 De software rekent met de eenvoudigste vorm van datatype. Als je dus 5 gebruikt in een berekening is dit een integer terwijl 5.0 een double zal zijn.
 :::
 
-:::tip Oefening 3.1
+:::tip Oefening
 
-Schrijf een programma waar de gebruiker het aantal stuks, de eenheidsprijs (2 cijfers na de komma) en de btw % kan ingeven.
+**3.1** Schrijf een programma waar de gebruiker het aantal stuks, de eenheidsprijs (2 cijfers na de komma) en de btw % kan ingeven.
 Na het indrukken van de CALC-knop verschijnt de totaalprijs in een label.
 
 Controle:
@@ -97,13 +97,9 @@ lblBrutoprijs.Content = Convert.ToString(brutoprijs);
 
 :::tip Taak 3
 
-**Oefening 3.2**
+**3.2** Schrijf een programma waar je de lengte, hoogte en breedte van een balk kunt ingeven. Als men vervolgens op de CALC-knop drukt wordt het volume van de balk berekend en weergegeven in een label.
 
-Schrijf een programma waar je de lengte, hoogte en breedte van een balk kunt ingeven. Als men vervolgens op de CALC-knop drukt wordt het volume van de balk berekend en weergegeven in een label.
-
-**Oefening 3.3**
-
-Schrijf een programma om de omtrek, oppervlakte en het volume van een cirkel en een bol te berekenen.
+**3.3** Schrijf een programma om de omtrek, oppervlakte en het volume van een cirkel en een bol te berekenen.
 
 1. zorg dat de gebruiker de straal kan inbrengen ( kommagetal )
 2. zorg dat de 3 resultaten duidelijk op het scherm komen 
@@ -114,9 +110,7 @@ opp = Math.PI * Math.Pow(straal,2);
 volume = ( 4 * Math.PI / 3 ) * Math.Pow(straal,3);
 ```   
 
-**Oefening 3.4**
-
-Twee studenten nemen deel aan het C#-examen. Hun resultaten ( een geheel getal tussen 0 en 100 ) worden toegekend aan twee variabelen.
+**3.4** Twee studenten nemen deel aan het C#-examen. Hun resultaten ( een geheel getal tussen 0 en 100 ) worden toegekend aan twee variabelen.
 
 ```csharp
 int resultaatStudent1 = 44;
@@ -127,7 +121,7 @@ Schrijf een programma dat het gemiddelde cijfer berekent als een double-waarde e
 
 Controleer je antwoord met een rekenmachine en schrijf in een commentaarlijntje jou bevindingen in het programma.
 
-**Uitbreidingsoefening 3.5**
+**3.5** Uitbreidingsoefening
 
 *Deze oefening is enkel voor die studenten die een extra uitdaging wensen aan te gaan*.
 
@@ -234,17 +228,13 @@ xAs.X2 = x0; xAs.Y2 = y0 - 380;
 
 :::tip Taak 4
 
-**Oefening 3.6**
-
-Schrijf een programma waarin de gebruiker de temperatuur in graden Farenheit kan invullen. Door het drukken op de Convert-knop wordt het equivalent in graden Celcius in een label getoond. De temperatuur wordt ingebracht en weergegeven tot 2 cijfers na de komma.
+**3.6** Schrijf een programma waarin de gebruiker de temperatuur in graden Farenheit kan invullen. Door het drukken op de Convert-knop wordt het equivalent in graden Celcius in een label getoond. De temperatuur wordt ingebracht en weergegeven tot 2 cijfers na de komma.
  
 ```csharp
 celcius = ( fahrenheit - 32 ) * 5 / 9;
 ```
  
-**Oefening 3.7**
-
-We krijgen een aantal seconden aangeleverd:
+**3.7** We krijgen een aantal seconden aangeleverd:
 ```csharp
 int aantalSeconden = 2549;
 ```
@@ -252,9 +242,7 @@ Schrijf een programma dat dit aantal omrekent naar uren, minuten en seconden en 
 
 U:0 M:42 S:29
 
-**Oefening 3.8**
-
-Schrijf een programma waar de gebruiker de waarde van 2 weerstanden kan inbrengen (2 cijfers na de komma).
+**3.8** Schrijf een programma waar de gebruiker de waarde van 2 weerstanden kan inbrengen (2 cijfers na de komma).
 
 Bereken vervolgens de serie- en parrallelweerstand voor die twee:
 ```csharp
@@ -263,7 +251,7 @@ double rParallel = ( r1 * r2 ) / ( r1 + r2 );
 ```
 Toon het resultaat in twee labels.
 
-**Uitbreidingsoefening 3.9**
+**3.9** Uitbreidingsoefening
 
 *Deze oefening is enkel voor die studenten die een extra uitdaging wensen aan te gaan*.
 
