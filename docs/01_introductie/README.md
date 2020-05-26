@@ -108,12 +108,9 @@ Nu dien je het gemaakte voorbeeld bij wijze van test in via Toledo:
 * Pas de content van je label aan in de event container.
 :::
 
-:::tip Taak 1
+::: tip Taak 1 - Bouw je eerste eigen programma
 
- **1.3** Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Nee en Reset. Plaats ook 3 labels op de user interface met de content ervan op respectievelijk A,B en C.
- Zorg er nu voor dat:
- * Bij het aanklikken van button "Ja" alle labels de content "Ja" krijgen.
- * Bij het aanklikken van button "Nee" alle labels de content "Nee" krijgen.
- * Bij het aanklikken van button "Reset" alle labels terug hun originele content A,B en C krijgen.
+![download](./images/assignment.png)
+
+* [Opdrachtfiche](assignment.html)
 :::
-
