@@ -76,18 +76,11 @@ private void DrawLine(Canvas Area, SolidColorBrush brushColor, double startX, do
 ```
 :::
 
-:::tip Taak 5
+::: tip Taak 4 - Programmeren met methoden
 
-**4.3** Schrijf een programma met een inputveld voor het jaarsalaris van een werknemer en een inputveld voor het aantal jaren dienst. Bereken via een methode met twee integerparameters hoeveel de werknemer in totaal reeds heeft verdiend en toon het resultaat in een label.
+![download](./images/assignment.png)
 
-**4.4** Schrijf een programma die via onderstaande methode een cirkel op de canvas tekent. De straal, en de x/y coördinaten van het middelpunt worden ingegeven via een textbox en de cirkel wordt getekend via een knop "Draw".
- 
-```csharp
- private void DrawCircle(Canvas drawArea, SolidColorBrush brush, double xCentre, double yCentre, double radius)
-{
-
-}
-```
+* [Opdrachtfiche](assignment.html)
 :::
 
 ## Een resultaat teruggeven
@@ -108,12 +101,12 @@ Het is belangrijk dat wat je return stuurt van het juiste datatype is zoals je v
 
 :::tip Oefeningen
 
-**4.5** Schrijf een programma met een inputveld voor het aantal graden in Fahrenheit. Via een knop "Convert" spreek je een functie `ConvertFtoC()` aan en plaats je vervolgens het resultaat in een label.
+**4.3** Schrijf een programma met een inputveld voor het aantal graden in Fahrenheit. Via een knop "Convert" spreek je een functie `ConvertFtoC()` aan en plaats je vervolgens het resultaat in een label.
 ```csharp
 celcius = ( fahrenheit - 32) * 5 / 9;
 ```
 
-**4.6** Schrijf een programma waarmee we een paswoord kunnen genereren.
+**4.4** Schrijf een programma waarmee we een paswoord kunnen genereren.
 Het paswoord is als volgt opgebouwd:
 * 3de letter van de familienaam
 * 2de letter van de voornaam als hoofdletter
@@ -144,7 +137,7 @@ Hiervoor gebruiken we de out- en ref-argumenten:
 
 :::tip Oefeningen
 
-**4.7** Schrijf een programma waar je het aantal eurocents kan inbrengen en via een knop "Bereken" dit weergeeft in euro's en eurocenten.
+**4.5** Schrijf een programma waar je het aantal eurocents kan inbrengen en via een knop "Bereken" dit weergeeft in euro's en eurocenten.
 ```csharp
 private void EuroCents(int totaalCents, out int euro, out int cents)
 {
@@ -155,7 +148,7 @@ private void EuroCents(int totaalCents, out int euro, out int cents)
 EuroCents(inputcents, out int euro, out int cents);
 ```
 
-**4.8** Schrijf een programma met een methode waarmee je een afmeting kunt verhogen.
+**4.6** Schrijf een programma met een methode waarmee je een afmeting kunt verhogen.
 ```csharp
 private void Verhoog(ref int input, int waarde)
 {

@@ -6,15 +6,16 @@ Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleer
 
 ## Inhoud
 
-1. Installatie van Visual Studio
-2. Introductie tot programmeren
-3. De basis van objecten en events
-4. Gebruik van variabelen en berekeningen
-5. Gerbuik van methoden en argumenten
-6. Aanvulling op objecten
-7. Nemen van beslissingen
-8. Toepassen van herhalingen
-9. Debuggen van je code
+ 1. Installatie van Visual Studio
+ 2. Introductie tot programmeren
+ 3. De basis van objecten en events
+ 4. Gebruik van variabelen en berekeningen
+ 5. Gerbuik van methoden en argumenten
+ 6. Klassen
+ 7. Aanvulling op objecten
+ 8. Nemen van beslissingen
+ 9. Toepassen van herhalingen
+10. Debuggen van je code
 
 ## Info
 
