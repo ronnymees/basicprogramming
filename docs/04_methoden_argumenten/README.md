@@ -76,13 +76,6 @@ private void DrawLine(Canvas Area, SolidColorBrush brushColor, double startX, do
 ```
 :::
 
-::: tip Taak 4 - Programmeren met methoden
-
-![download](./images/assignment.png)
-
-* [Opdrachtfiche](assignment.html)
-:::
-
 ## Een resultaat teruggeven
 
 Als een methode een resultaat teruggeeft dan spreken we over een functiemethode of kortweg een functie.
@@ -159,32 +152,9 @@ Verhoog(ref int lengte, 10 );
 ```
 :::
 
-:::tip Taak 6
+::: tip Taak 4 - Programmeren met methoden
 
-**4.9** Schrijf een programma waar je een bedrag in dollars kunt ingeven en via een knop "Convert" dit kan omrekenen naar euro's. Je zoekt zelf de huidige wisselkoers op.
-```csharp
-double euro = DollarToEuro(dollar);
-```
+![download](./images/assignment.png)
 
-**4.10** Schrijf een programma die de inhoud van een kubus berekent als je de zijde ervan ingeeft. Gebruik terug een knop "Bereken" om dit te doen.
-```csharp
-double volume = KubusVolume(zijde);
-```
-
-**4.11** Schrijf een programma die via inputvelden het aantal uren, minuten en seconden opvraagt en vervolgens via een knop "Bereken" het totaal aantal seconden uitrekent.
-```csharp
-double seconden = TijdInSeconden(uur, minuten, seconden);
-```
-
-**4.12** Schrijf een programma met een methode die de inhoud van 2 strings omwisselt.
-```csharp
-swap(... string a, ... string b);
-```
-De inhoud van a komt in b en omgekeerd. (op de ... komt dus ofwel `out` ofwel `ref` te staan)
-
-**4.13** Schrijf een programma waar de gebruiker het aantal uren, minuten en seconden kan inbrengen. De ingebrachte waarden worden opgehaald via volgende methode:
-```csharp
-GetInput(... int a, ... int b, ... int c);
-```
-Vervolgens wordt het totaal aantal seconden uitgerekend en in een label getoond.
+* [Opdrachtfiche](assignment.html)
 :::
