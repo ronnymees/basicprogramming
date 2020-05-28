@@ -18,7 +18,7 @@ module.exports = {
           '/02_objecten_events/',
           '/03_variabelen_berekeningen/',
           '/04_methoden_argumenten/',
-          '/05_klassen',
+          '/05_klassen/',
           '/06_objecten/',
           '/07_beslissingen/',
           '/08_herhalingen/',
