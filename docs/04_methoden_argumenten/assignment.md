@@ -50,7 +50,7 @@ Vervolgens wordt het totaal aantal seconden uitgerekend en in een label getoond.
 
 ## Evaluatie
 
-Deze opdracht staat op **10%** van de totale score voor basic programming 1.
+Deze opdracht staat op **15%** van de totale score voor basic programming 1.
 
 De evaluatie gebeurt op basis van:
 * Is jou code geschreven de good practices van programmeren?

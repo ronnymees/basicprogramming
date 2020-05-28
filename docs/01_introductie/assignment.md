@@ -16,7 +16,7 @@ Maak een user interface met 3 knoppen met de tekst er van respectievelijk Ja, Ne
 
 ## Evaluatie
 
-Deze opdracht staat op **10%** van de totale score voor basic programming 1.
+Deze opdracht staat op **5%** van de totale score voor basic programming 1.
 
 De evaluatie gebeurt op basis van:
 * Is jou code geschreven de good practices van programmeren?

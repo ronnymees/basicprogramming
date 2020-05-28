@@ -122,7 +122,7 @@ Tot slot kan je ook methoden definiëren in een klasse. Ook die kunnen private o
 In ons voorbeeld zouden dit deze methoden kunnen zijn:
 
 ```csharp
-
+// gedeelte met methode(n) 
 public SetStudentnummer(int _nummer)
 {
     studentennummer = _nummer
@@ -141,6 +141,14 @@ public Uitgeschreven()
 public bool IsActief()
 {
     return actief;
+}
+```
+
+In je programma kan je dan bv hetvolgende schrijven:
+
+```csharp
+if(student.IsActief()){
+    
 }
 ```
 
