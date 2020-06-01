@@ -18,7 +18,7 @@ Zorg er voor dat je grafiek ook aslijnen heeft, de rechthoeken zijn opgevuld en 
 
 ## Tips
 
-* Overloop de leerstof van objecten en events nog even voor je hieraan begint.
+* Overloop de leerstof van klassen nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
 * Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
 

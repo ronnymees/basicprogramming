@@ -21,7 +21,7 @@ for( int i=1 ; i<10 ; i++ ) {
 
 :::tip Oefening
 
-**7.1** Schrijf een programma met volgende user interface :
+**8.1** Schrijf een programma met volgende user interface :
 
 ```yaml
  <Grid>
@@ -70,21 +70,6 @@ public partial class MainWindow : Window
 Het aantal keer dat de lus doorlopen wordt is weliswaar variabel, maar net op het moment dat de lus moet starten is die waarde wel gekend en dus weten we hoeveel keer de lus zal doorlopen worden.
 :::
 
-:::tip Taak 11
-
-**7.2** Schrijf een programma dat met behulp van een lus de getallen 1 t.e.m. 10 en de derde macht hiervan op het scherm laat zien.
-
-![download](./images/afbeelding1.png)
-
-**7.3** Schrijf een programma dat met behulp van een lus willekeurige getallen tussen 1 en 100 op het scherm toont in een tekstvak.
-
-**7.4** Schrijf een programma dat 100 cirkels met willekeurige stralen tot 100 pixels op willekeurige posities in een canvas van 500x500 tekent.
- 
-**7.5** Schrijf een programma dat een trap van vierkantjes tekent. Elk vierkantje wordt met een methode 'DrawRectangle' getekend.
-
-![download](./images/afbeelding2.png)
-:::
-
 ## WHILE-lus
 
 We gebruiken de WHILE-lus als we **niet op voorhand weten hoeveel herhalingen er zullen zijn**. De WHILE-lus zal eerst de conditie voor herhaling bekijken en pas als deze nog geldig is zal een lus worden uitgevoerd. **Het is dus mogelijk dat er dus nooit een lus wordt uitgevoerd!**
@@ -105,7 +90,7 @@ while ( (i<10) && ( temp > 0 ) )
 
 :::tip Oefening
 
-**7.6** Schrijf een programma met volgende user interface :
+**8.2** Schrijf een programma met volgende user interface :
 
 ```yaml
 <Grid>
@@ -220,37 +205,10 @@ private int Sum(int[] getallen)
 }
 ```
 
-:::tip Taak 12
+::: tip Taak 8 - Programmeren met herhalingen
 
-**7.7** Schrijf een programma dat de getallen 0 t.e.m. 39 met behulp van een lus optelt en plaats het resultaat in een label. Voorzie een controle en toon het controleresultaat eveneens in een label.
+![download](./images/assignment.png)
 
-```csharp
-int som = n * ( n + 1 ) / 2;
-```
-Pas vervolgens het programma aan zodat n kan ingegeven worden i.p.v. een vaste waarde 39.
-
-![download](./images/afbeelding3.png)
-
-**7.8** Schrijf een programma dat een vermenigvuldigingstabel laat zien. Hieronder een voorbeeld voor 1 t.e.m. 5:
-
-![download](./images/afbeelding4.png)
-
-Zorg er voor dat het bereik tot waar de tabel moet weergegeven worden kan ingevuld worden. Zorg dat er een horizontale en verticale scrollbar steeds aanwezig is.
-
-**tip:** In een string de code `\t` toevoegen zorgt voor een tab.
-
-**7.9** Schrijf een programma dat de som van volgende reeks weet te berekenen en op het scherm toont.
-Je blijft optellen in de reeks tot de term een waarde heeft bereikt die kleiner is dan 0,0001.
-
-1 - 1/2 + 1/3 - 1/4 + ...
-
-**7.10** Schrijf een programma waar de gebruiker voor een periode van 14 dagen het aantal ml neerslag kan inbrengen. Elke waarde wordt op een nieuwe regel in een textbox getoont. Als de laatste dag is ingebracht worden volgende gegevens op het scherm getoont:
-* de gemiddelde neerslag gedurende die periode;
-* de hoogste en laagste waarde van de neerslag;
-* de dagen waarop die hoogste en laagste waarde zijn voorgekomen.
-
-![download](./images/afbeelding5.png)
-
-**tip**: maak gebruik van een array.
+* [Opdrachtfiche](assignment.html)
 :::
 
