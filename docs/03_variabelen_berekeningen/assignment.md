@@ -4,7 +4,7 @@
 
 ## Opdrachten
 
-Bij deze taak mag je kiezen, je maakt ofwel oefeningen 1 t.e.m. 5 of je maakt de uitbreidingsoefeningen 6 en 7.
+Bij deze taak mag je kiezen, je maakt ofwel oefeningen 1 t.e.m. 5 of je maakt de uitdagingsoefeningen 6 en 7.
 
 **1.** Schrijf een programma waar je de lengte, hoogte en breedte van een balk kunt ingeven. Als men vervolgens op de CALC-knop drukt wordt het volume van de balk berekend en weergegeven in een label.
 
@@ -42,11 +42,7 @@ double rParallel = ( r1 * r2 ) / ( r1 + r2 );
 ```
 Toon het resultaat in twee labels.
 
-**6.** Uitbreidingsoefening 1
-
-*Deze oefening is enkel voor die studenten die een extra uitdaging wensen aan te gaan*.
-
-Een elektrische schakeling bestaat uit volgende weerstanden:
+**6.** Een elektrische schakeling bestaat uit volgende weerstanden:
 
 ![download](./images/afbeelding5.png)
 
@@ -83,11 +79,7 @@ Probeer het ook eens met andere getallen.
 
 Wat gebeurt er als je tekst ingeeft i.p.v. een getal?
 
-**7.** Uitbreidingsoefening 2
-
-*Deze oefening is enkel voor die studenten die een extra uitdaging wensen aan te gaan*.
-
-Een temperatuursensor meet elke 10 min de temperatuur in een buis. De metingen in °C zijn :
+**7.** Een temperatuursensor meet elke 10 min de temperatuur in een buis. De metingen in °C zijn :
  - 10,15           
  - 11,31
  - 13
