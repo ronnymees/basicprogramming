@@ -10,11 +10,12 @@ Laten we dit even uitproberen in een voorbeeldprogramma ( naam = **Oefening 2.1*
 * Plaats een button op jouw user interface ( XAML).
 * Dubbelklik op de button om de "event container" te creëren.
 * Roep de messagebox als volgt op:
-    ```csharp
-    {
-        messagebox.show("Je hebt op de button geklikt!");
-    }
-    ```
+
+ ```csharp
+ {
+    MessageBox.Show("Je hebt op de button geklikt!");
+ }
+ ```
 
 :::tip Enkele oefeningen:
 
