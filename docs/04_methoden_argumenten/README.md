@@ -53,8 +53,8 @@ Gebruik onderstaande code en probeer de werking te begrijpen.
 private void btnDraw_Click(object sender, RoutedEventArgs e)
 {
    SolidColorBrush blackbrush = new SolidColorBrush(Colors.Black);
-    DrawTriangle(papercanvas, blackbrush, 100,10,40,40);
-    DrawTriangle(papercanvas, blackbrush, 10,100,20,60);
+    DrawTriangle(paperCanvas, blackbrush, 100,10,40,40);
+    DrawTriangle(paperCanvas, blackbrush, 10,100,20,60);
 }
 
 private void DrawTriangle(Canvas drawingArea, SolidColorBrush brushToUse, double topX, double topY, double width, double height)
@@ -67,8 +67,8 @@ private void DrawTriangle(Canvas drawingArea, SolidColorBrush brushToUse, double
 private void DrawLine(Canvas Area, SolidColorBrush brushColor, double startX, double startY, double endX, double endY)
 {
    Line theLine = new Line();
-   theline.X1 = startX; theLine.Y1 = startY;
-   theline.X2 = endX; theLine.Y2 = endY;
+   theLine.X1 = startX; theLine.Y1 = startY;
+   theLine.X2 = endX; theLine.Y2 = endY;
    theLine.Stroke = brushColor;
    theLine.StrokeThickness = 1;
    Area.Children.Add(theLine);
@@ -148,7 +148,7 @@ private void Verhoog(ref int input, int waarde)
    input += waarde;
 }
 
-Verhoog(ref int lengte, 10 );
+Verhoog(ref lengte, 10 );
 ```
 :::
 

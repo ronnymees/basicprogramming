@@ -123,17 +123,17 @@ In ons voorbeeld zouden dit deze methoden kunnen zijn:
 
 ```csharp
 // gedeelte met methode(n) 
-public SetStudentnummer(int _nummer)
+public void SetStudentnummer(int _nummer)
 {
     studentennummer = _nummer
 }
 
-public Ingeschreven()
+public void Ingeschreven()
 {
     actief = true;
 }
 
-public Uitgeschreven()
+public void Uitgeschreven()
 {
     actief = false;
 }

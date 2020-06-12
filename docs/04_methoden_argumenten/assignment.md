@@ -32,13 +32,13 @@ double seconden = TijdInSeconden(uur, minuten, seconden);
 
 **6.** Schrijf een programma met een methode die de inhoud van 2 strings omwisselt.
 ```csharp
-swap(... string a, ... string b);
+swap(... a, ... b);
 ```
 De inhoud van a komt in b en omgekeerd. (op de ... komt dus ofwel `out` ofwel `ref` te staan)
 
 **7.** Schrijf een programma waar de gebruiker het aantal uren, minuten en seconden kan inbrengen. De ingebrachte waarden worden opgehaald via volgende methode:
 ```csharp
-GetInput(... int a, ... int b, ... int c);
+GetInput(... a, ... b, ... c);
 ```
 Vervolgens wordt het totaal aantal seconden uitgerekend en in een label getoond.
 

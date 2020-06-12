@@ -25,13 +25,9 @@ volume = ( 4 * Math.PI / 3 ) * Math.Pow(straal,3);
 celcius = ( fahrenheit - 32 ) * 5 / 9;
 ```
  
-**4.** We krijgen een aantal seconden aangeleverd:
-```csharp
-int aantalSeconden = 2549;
-```
-Schrijf een programma dat dit aantal omrekent naar uren, minuten en seconden en laat dit vervolgens in een label zien. Werk eerst het voorbeeld op papier uit voor je gaat programmeren.
+**4.** Schrijf een programma dat het ingebracht aantal seconden omrekent naar uren, minuten en seconden en laat dit vervolgens in een label zien. Werk eerst het voorbeeld op papier uit voor je gaat programmeren.
 
-U:0 M:42 S:29
+Controle: 5549 seconden = 01:32:29
 
 **5.** Schrijf een programma waar de gebruiker de waarde van 2 weerstanden kan inbrengen (2 cijfers na de komma).
 
@@ -101,14 +97,14 @@ Wat gebeurt er als je tekst ingeeft i.p.v. een getal?
 
 4. De gemiddelde waarde wordt ook in een label visueel gemaakt.
 5. Plaats eventueel labels bij je aslijnen.
-:::
 
 ## Tips
 
-* Overloop de leerstof van objecten en events nog even voor je hieraan begint.
+* Overloop de leerstof van variabelen en berekeningen nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
 * Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
 * Controleer steeds je resultaat, zo kan je conversie problemen tussen bv. gehele en kommagetallen opsporen.
+* Debug je programma om eventuele problemen op te sporen en/of op te lossen.
 
 ## Evaluatie
 

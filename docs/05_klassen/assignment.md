@@ -4,9 +4,9 @@
 
 ## Opdrachten
 
-**1.** Schrijf een klasse voor een dobbelsteen. Het aantal ogen van de dobbelsteen kan je extern niet aanpassen. Voor zie een methode waarmee je via de randomgenerator een worp van de dobbelsteen simuleert en een methode waarmee je het aantal ogen weergeeft.
+**1.** Schrijf een klasse voor een rekening. Het saldo van de rekening kan je niet rechtstreeks aanpassen. Zorg voor een methode `Storting(double bedrag)` en `Opname(double bedrag)` waarmee je het saldo kan verhogen of verlagen. Daarnaast is er ook een functie `double ShowSaldo()` om het saldo van de rekening te raadplegen.
 
-Schrijf nu een programma die deze klasse gebruik om bij het aanklikken van de knop **Gooi** een worp te simuleren en die vervolgens te tonen in een label op het scherm.
+Schrijf nu een programma die deze klasse gebruik om in een label continue het saldo van de rekening te tonen. Voorzie ook de mogelijkheid om via 2 knoppen en een invulveld het saldo te verhogen ot te verlagen.
 
 **2.** Schrijf een klasse voor een rechthoek. De breedte en hoogte worden in de klasse bewaard. Voorzie een constructor `Rechthoek(10,20)` waarmee je de hoogte en breedte onmiddellijk kunt definiëren bij de definitie van een variabele van het type van de klasse. Voorzie een methode 'Draw(canvas, x0Pos, y0Pos, brush)` waarmee je de rechthoek kan tekenen.
 
