@@ -8,7 +8,7 @@
 
 Schrijf nu een programma die deze klasse gebruik om in een label continue het saldo van de rekening te tonen. Voorzie ook de mogelijkheid om via 2 knoppen en een invulveld het saldo te verhogen ot te verlagen.
 
-**2.** Schrijf een klasse voor een rechthoek. De breedte en hoogte worden in de klasse bewaard. Voorzie een constructor `Rechthoek(10,20)` waarmee je de hoogte en breedte onmiddellijk kunt definiëren bij de definitie van een variabele van het type van de klasse. Voorzie een methode 'Draw(canvas, x0Pos, y0Pos, brush)` waarmee je de rechthoek kan tekenen.
+**2.** Schrijf een klasse voor een rechthoek. De breedte en hoogte worden in de klasse bewaard. Voorzie een constructor `Rechthoek(10,20)` waarmee je de hoogte en breedte onmiddellijk kunt definiëren bij de definitie van een variabele van het type van de klasse. Voorzie een methode 'Draw(canvas, xPos, yPos, brush)` waarmee je de rechthoek kan tekenen.
 
 Schrijf een programma die een grafiek tekent gebruikmakend van de Draw functie van deze klasse.
 
