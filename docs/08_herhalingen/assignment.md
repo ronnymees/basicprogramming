@@ -51,7 +51,7 @@ Je blijft optellen in de reeks tot de term een waarde heeft bereikt die kleiner 
 
 * Overloop de leerstof van herhalingen nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
-* Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
+* Lees de opdrachten goed en werk met een checklist, vink af wat klaar is.
 
 ## Evaluatie
 

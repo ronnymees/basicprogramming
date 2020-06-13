@@ -20,7 +20,7 @@ Zorg er voor dat je grafiek ook aslijnen heeft, de rechthoeken zijn opgevuld en 
 
 * Overloop de leerstof van klassen nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
-* Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
+* Lees de opdrachten goed en werk met een checklist, vink af wat klaar is.
 
 ## Evaluatie
 

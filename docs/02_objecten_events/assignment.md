@@ -22,7 +22,7 @@ Schrijf een programma met een knop "GRAPH" en een canvas van 200x200. Als men op
 
 * Overloop de leerstof van objecten en events nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
-* Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
+* Lees de opdrachten goed en werk met een checklist, vink af wat klaar is.
 
 ## Evaluatie
 

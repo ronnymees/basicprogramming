@@ -43,7 +43,7 @@ int volume = gemdiepte * breedte * lengte;
 
 * Overloop de leerstof van objecten nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
-* Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
+* Lees de opdrachten goed en werk met een checklist, vink af wat klaar is.
 
 ## Evaluatie
 

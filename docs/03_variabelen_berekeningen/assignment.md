@@ -102,7 +102,7 @@ Wat gebeurt er als je tekst ingeeft i.p.v. een getal?
 
 * Overloop de leerstof van variabelen en berekeningen nog even voor je hieraan begint.
 * Verzorg je naamgeving van objecten.
-* Lees de opdrachten goed en werk met een checklist wat vink af wat klaar is.
+* Lees de opdrachten goed en werk met een checklist, vink af wat klaar is.
 * Controleer steeds je resultaat, zo kan je conversie problemen tussen bv. gehele en kommagetallen opsporen.
 * Debug je programma om eventuele problemen op te sporen en/of op te lossen.
 
