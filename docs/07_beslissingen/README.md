@@ -24,7 +24,7 @@ Vaak wil je ook een stukje code laten uitvoeren als de conditie niet voldaan is.
 
 :::tip Oefening
 
-**7.2** Pas de oefening 6.1 aan zodat de textbox nu ook rood kleurt als het paswoord niet langer is dan 8 tekens.
+**7.2** Pas de oefening 7.1 aan zodat de textbox nu ook rood kleurt als het paswoord niet langer is dan 8 tekens.
 :::
 
 ## Opbouw van condities

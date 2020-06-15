@@ -179,7 +179,7 @@ Zoek informatie over de class Random op en beantwoord volgende vragen:
 * `.Next(5,10)` levert dit getallen op tussen 5 en 10 inclusief de grenswaarden of niet?
 * Als je meerdere willekeurige getallen nodig hebt, moet je dan ook meerdere Random variabelen aanmaken?
 
-**6.2** Om tijdsgebonden code te kunnen uitvoeren maken we gebruik van een nieuwe class **DispatcherTimer** uit een nieuwe **namespace System.Windows.Threading**, dus hebben we nood aan een **using** verwijzing.
+**6.3** Om tijdsgebonden code te kunnen uitvoeren maken we gebruik van een nieuwe class **DispatcherTimer** uit een nieuwe **namespace System.Windows.Threading**, dus hebben we nood aan een **using** verwijzing.
 De user-interface ziet er als volgt uit:
 
 ```yaml
