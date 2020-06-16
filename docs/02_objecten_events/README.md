@@ -108,7 +108,7 @@ Je kan een ellips voor allerhande grafische toepassingen gebruiken zoals bv een 
 Om een ellips via code toe te voegen ga je als volgt te werk:
 
 ```csharp
-Elipse cirkel = new Elipse();
+Ellipse cirkel = new Ellipse();
 cirkel.Width = 100;
 cirkel.Height = 100;
 cirkel.Margin = new Thickness(10,10,0,0);

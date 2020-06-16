@@ -8,9 +8,9 @@
 
 ![download](./images/afbeelding1.png)
 
-**2.** Schrijf een programma dat met behulp van een lus willekeurige getallen tussen 1 en 100 op het scherm toont in een tekstvak.
+**2.** Schrijf een programma dat met behulp van een lus 10 willekeurige getallen tussen 1 en 100 op het scherm toont in een tekstvak.
 
-**3.** Schrijf een programma dat 100 cirkels met willekeurige stralen tot 100 pixels op willekeurige posities in een canvas van 500x500 tekent.
+**3.** Schrijf een programma dat 100 cirkels met willekeurige stralen tot 25 pixels op willekeurige posities in een canvas van 500x500 tekent.
  
 **4.** Schrijf een programma dat een trap van vierkantjes tekent. Elk vierkantje wordt met een methode 'DrawRectangle' getekend.
 
