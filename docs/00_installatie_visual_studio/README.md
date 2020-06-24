@@ -3,7 +3,7 @@
 Om de basis van programmeren aan te leren gebruiken we **Visual Studio Community 2019**.
 
 1. Downloaden van de installatiesoftware: 
-https://visualstudio.microsoft.com/downloads/
+[https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
 
 ![download](./images/afbeelding1.png)
 
