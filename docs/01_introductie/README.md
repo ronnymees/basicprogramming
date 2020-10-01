@@ -28,7 +28,7 @@ Een programma is dus een logische opeenvolging van handelingen/instructies die e
 * Een biefstuk te bakken
 * Een pint te tappen
 * Te tanken
-* Een straat over te steken op het voetpad
+* Een straat over te steken op het zebrapad
 * Een mail te versturen
 :::
 

@@ -127,11 +127,12 @@ Je kan ook afbeeldingen toevoegen aan jouw canvas. Je gaat hiervoor als volgt te
 ```csharp
 BitmapImage afbSource = new BitmapImage();
 afbSource.BeginInit();
-afbSource.UriSource = new Uri(@"pathtofile\filename.jpg"), UriKind.RelativeOrAbsolute);
+afbSource.UriSource = new Uri(@"pathtofile\filename.jpg", UriKind.RelativeOrAbsolute);
 afbSource.EndInit();
+
 Image afbeelding = new Image();
 afbeelding.Source = afbSource;
-afbeelding.Margin = new Thickness(120,10,0,0);
+afbeelding.Margin = new Thickness(120, 10, 0, 0);
 afbeelding.Width = 150;
 afbeelding.Height = 150;
 paperCanvas.Children.Add(afbeelding);
