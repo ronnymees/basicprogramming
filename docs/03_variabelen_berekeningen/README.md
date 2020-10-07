@@ -118,7 +118,7 @@ string titel = null;
 Laten we even kijken wat er gebeurt als we volgende code schrijven:
 ```csharp
 int appels = 2, peren = 3;
-string resultaat, zin = "Het antwoord is: ";
+string resultaat, intro = "Het antwoord is: ";
 resultaat = intro + appels + peren;
 ```
 Er zijn twee mogelijkheden:
