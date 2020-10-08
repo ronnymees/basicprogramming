@@ -58,7 +58,7 @@ Schrijf een programma dat:
 ```  
 * De serieweerstand R1234 berekent en bewaart in een double variabele
 ```csharp
-int r1234 = r1 + r234;
+double r1234 = r1 + r234;
 ```
 * De stroom door de weerstand R1234 berekent en bewaart in een double variabele
 ```csharp
