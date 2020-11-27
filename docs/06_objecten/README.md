@@ -200,7 +200,7 @@ public partial class MainWindow : Window
 {
    // instantie variabelen
    private Random randomNumber = new Random();
-   private double x, y, size;
+   private int x, y, size;
    private SolidColorBrush brush;
    private DispatcherTimer timer = new DispatcherTimer();
 
@@ -208,11 +208,11 @@ public partial class MainWindow : Window
    {
        InitializeComponent();
        // Constructor code
+       Slider.Value = 10;
        lblGap.Content = Convert.ToString(Slider.Value);
        brush = new SolidColorBrush(Colors.Blue);
        timer.Interval = TimeSpan.FromMilliseconds(Slider.Value);
-       timer.Tick += timer_Tick;
-       Slider.Value = 10;
+       timer.Tick += timer_Tick;       
    }
 
    // Stop de timer
