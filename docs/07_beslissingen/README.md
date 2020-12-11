@@ -79,6 +79,9 @@ switch (dagnummer)
     case 7:
         dagnaam = "Zondag";
         break;        
+    default:
+        dagnaam = "Error: The daynumber must be 1-7"
+        break;
 }
 ```
 Merk op dat groepering binnen de switch-operator ook tot de mogelijkheden behoort.
