@@ -23,6 +23,8 @@ Tijdens deze cursus wordt jullie de basisvaardigheden van programmeren aangeleer
 * Het handboek programmeren in c# van Douglas Bell en Mike Parr ( ISBN 9789043036139 ).
 * Het ontwikkelplatform van Microsoft Visual Studio
 
-## Licentie
+## Rechten
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dit werk valt onder de licentie van  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Naamsvermelding-GelijkDelen 4.0 Internationaal (CC BY-SA 4.0)</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dit werk is gelicentieerd onder een <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationale Licentie</a>.
+
+
