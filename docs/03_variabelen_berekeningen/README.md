@@ -147,14 +147,26 @@ double d1;
 d1 = (double)i;     // d1 wordt 33.0
 i = (int)d;         // i  wordt 3
 ```
-## Geformateerde strings
+## Geformatteerde strings
 
-Via geformateerde strings kan je tekst, getallen en weergave combineren. Je herkent stringformattering onmiddellijk aan het **$-teken** voor de string en de `{}` waar een getal geformatteerd wordt weergegeven.
+Via geformatteerde strings kan je tekst, getallen en weergave combineren. Je herkent stringformattering onmiddellijk aan het **$-teken** voor de string en de `{}` waar een getal geformatteerd wordt weergegeven.
 
 ```csharp
 lblResultaat.Content = $"{euro} euro en {cent} cent";
 lblPrijs.Content = $"De kostprijs is {prijs:c}";
 ```
+
+Enkele vaak gebruikte formateringen:
+
+| Datatype | Voorbeeld | Resultaat |
+|---|:---|:---|
+| Decimaal | `int number = 123;` <br/> `lblOutput.Content = $"{number:D}";` | 123 |
+| Decimaal | `int number = 123;` <br/> `lblOutput.Content = $"{number:D5}";` | 00123 |
+| Floating-point | `double number = 12.34;` <br/> `lblOutput.Content = $"{number:F2}";` | 12,34 |
+| Floating-point | `double number = 12.34;` <br/> `lblOutput.Content = $"{number:F0}";` | 12 |
+| Wetenschappelijk | `double number = 12_000_000;` <br/> `lblOutput.Content = $"{number:E2}";` | 1,2E007 |
+| Geldbedrag | `double number = 12.34;` <br/> `lblOutput.Content = $"{number:C}";` | €12,34 <br/> *gebruikt jou valuta instelling |
+| Getal | `double number = 1234000;` <br/> `lblOutput.Content = $"{number:N2}";` | 1.234.000,00 |
 
 Extra info kan je [hier](/files/stringformat.pdf) terugvinden.
 

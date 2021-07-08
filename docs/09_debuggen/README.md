@@ -35,3 +35,27 @@ Een variabele voeg je toe aan de wachtlist via het rechtermuismenu.
 Op die manier kan je bij elke stap tijdens het debuggen de voor jou belangrijke variabelen bijhouden om te zien of alles naar behoren functioneert.
 
 ![download](./images/afbeelding6.png) 
+
+## Opvangen van fouten in de code
+
+Je kan onderstaande codestructuur gebruiken om een bepaald stukje code proberen uit te voeren. Als er een fout ontstaat dan zal deze opgevangen worden waardoor je nette foutafhandeling kan voorzien.
+
+```csharp
+try
+{
+    // Hier komt de code te staan die je wil proberen uit te voeren
+
+}
+catch (Exception e)
+{
+    // Hier komt de code te staan die de foutafhandeling zal doen.
+    //bv. een messagebox met foutcode.
+
+}
+finally 
+{
+    // Hier komt de code te staan die zeker nog moet uitgevoerd worden zelfs na een fout.
+    // bv. netjes afsluiten van vensters of resetten van variabelen, ...
+    
+}
+```
